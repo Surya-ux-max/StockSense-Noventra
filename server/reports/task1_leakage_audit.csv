@@ -1,0 +1,48 @@
+column_name,category,contains_future_info,leakage_risk_status,audit_notes,recommendation
+date,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+store_id,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+product_id,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+state,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+city,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+store_type,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+floor_area_sqft,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+avg_daily_customers,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+region,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+distribution_center_id,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+distance_to_dc,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+department,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+category,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+sub_category,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+brand,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+mrp,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+cost_price,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+shelf_life_days,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+supplier_id,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+case_pack_qty,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+perishable_flag,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+units_sold,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+selling_price,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+discount_pct,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+promotion_flag,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+channel,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+opening_stock,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+received_qty,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+closing_stock,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+incoming_stock,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+reorder_level,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+safety_stock,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+lead_days,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+transfer_in_qty,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+transfer_out_qty,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+stockout_flag,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+lost_sales_units,Current Day Operational State (t),NO,SAFE (Lagged/Contemporary at t),Represents state realized at end-of-day t. Valid for predicting t+1..t+7 replenishment.,Permitted as state predictor for next-cycle replenishment decision.
+temperature,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+rain,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+holiday,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+festival,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+weekend,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+local_event,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+school_holiday,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+payday_flag,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+extreme_weather_flag,Static / Environmental Metadata,NO,SAFE,"Exogenous store, product, or external weather feature known at day t.",Safe for inclusion in feature engineering pipeline.
+next_7_day_demand,Target Variable,YES (Explicitly designated target),SAFE AS TARGET ONLY,Ground-truth target sum of units_sold for t+1..t+7. MUST NEVER be used as a predictor input.,Exclude from model feature matrices (X); retain strictly as y_reg.

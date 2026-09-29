@@ -1,0 +1,48 @@
+dataset,column_name,data_type,description,example_value,constraint_rule
+walmart_stocksense_master.csv,date,string (YYYY-MM-DD),Calendar observation date.,2026-01-15,Primary Key part. Consecutive dates within horizon.
+walmart_stocksense_master.csv,store_id,string,Unique identifier for Walmart retail store.,WMT_CA_001,Foreign key to stores.csv.
+walmart_stocksense_master.csv,product_id,string,Unique identifier for Walmart retail product.,PRD_0012,Foreign key to products.csv.
+walmart_stocksense_master.csv,state,string,Two-letter US state code.,CA,"CA, TX, WI, FL, NY"
+walmart_stocksense_master.csv,city,string,City where store is located.,Los Angeles,Valid store city
+walmart_stocksense_master.csv,store_type,string,Retail format format of store.,Supercenter,"Supercenter, Neighborhood Market, Small Format"
+walmart_stocksense_master.csv,floor_area_sqft,integer,Store total floor square footage.,185000,12000 - 220000
+walmart_stocksense_master.csv,avg_daily_customers,integer,Estimated daily store customer footfall.,4200,500 - 7000
+walmart_stocksense_master.csv,region,string,Geographic sales region.,West,"West, Southwest, Midwest, Southeast, Northeast"
+walmart_stocksense_master.csv,distribution_center_id,string,Assigned Walmart regional distribution center.,WMT_DC_CA01,Valid DC ID
+walmart_stocksense_master.csv,distance_to_dc,float,Driving distance to assigned DC in miles.,64.5,15.0 - 250.0
+walmart_stocksense_master.csv,department,string,Retail product department.,Dairy,14 Walmart departments
+walmart_stocksense_master.csv,category,string,Merchandise category.,Dairy Products,Standardized category name
+walmart_stocksense_master.csv,sub_category,string,Product sub-category.,Fresh Milk,Standardized sub-category
+walmart_stocksense_master.csv,brand,string,Product manufacturer brand.,Great Value,Valid brand
+walmart_stocksense_master.csv,mrp,float,Maximum Retail Price / regular list price ($).,4.28,mrp >= selling_price
+walmart_stocksense_master.csv,cost_price,float,Unit acquisition cost ($).,3.35,cost_price < mrp
+walmart_stocksense_master.csv,shelf_life_days,integer,Shelf life stability in days.,10,7 - 3650
+walmart_stocksense_master.csv,supplier_id,string,Primary vendor/supplier identifier.,SUP_DAI_01,Valid supplier code
+walmart_stocksense_master.csv,case_pack_qty,integer,Units per master distribution shipping pack.,12,4 - 32
+walmart_stocksense_master.csv,perishable_flag,integer,Binary flag indicating perishable item.,1,0 or 1
+walmart_stocksense_master.csv,units_sold,integer,Total units purchased by customers on date.,34,units_sold >= 0
+walmart_stocksense_master.csv,selling_price,float,Effective customer transaction unit price ($).,3.85,selling_price <= mrp
+walmart_stocksense_master.csv,discount_pct,float,Active promotional discount rate.,0.10,0.00 - 0.40
+walmart_stocksense_master.csv,promotion_flag,integer,Flag indicating active promotional campaign.,1,0 or 1
+walmart_stocksense_master.csv,channel,string,Primary fulfillment channel.,Store,"Store, Pickup"
+walmart_stocksense_master.csv,opening_stock,integer,Inventory on hand at start of day.,65,opening_stock >= 0
+walmart_stocksense_master.csv,received_qty,integer,Replenishment inventory delivered from DC.,48,received_qty >= 0
+walmart_stocksense_master.csv,closing_stock,integer,Inventory on hand at end of business day.,79,closing_stock >= 0
+walmart_stocksense_master.csv,incoming_stock,integer,Open purchase orders in transit.,0,incoming_stock >= 0
+walmart_stocksense_master.csv,reorder_level,integer,Inventory threshold that triggers replenishment.,42,reorder_level > safety_stock
+walmart_stocksense_master.csv,safety_stock,integer,Buffer stock to mitigate demand variability.,16,safety_stock >= 0
+walmart_stocksense_master.csv,lead_days,integer,Replenishment lead time in days.,2,1 - 5
+walmart_stocksense_master.csv,transfer_in_qty,integer,Units transferred in from peer stores.,0,transfer_in_qty >= 0
+walmart_stocksense_master.csv,transfer_out_qty,integer,Units transferred out to peer stores.,0,transfer_out_qty >= 0
+walmart_stocksense_master.csv,stockout_flag,integer,Binary flag indicating inventory exhaustion.,0,0 or 1
+walmart_stocksense_master.csv,lost_sales_units,integer,Unfulfilled customer demand units due to stockout.,0,lost_sales_units >= 0
+walmart_stocksense_master.csv,temperature,float,Daily mean ambient temperature in Celsius.,14.2,-20.0 to 35.0
+walmart_stocksense_master.csv,rain,float,Daily precipitation in millimeters.,0.0,rain >= 0.0
+walmart_stocksense_master.csv,holiday,integer,Federal holiday flag.,0,0 or 1
+walmart_stocksense_master.csv,festival,integer,Major cultural or sports festival event flag.,0,0 or 1
+walmart_stocksense_master.csv,weekend,integer,Weekend day flag (Saturday/Sunday).,1,0 or 1
+walmart_stocksense_master.csv,local_event,integer,Local city event flag.,0,0 or 1
+walmart_stocksense_master.csv,school_holiday,integer,School break or holiday flag.,0,0 or 1
+walmart_stocksense_master.csv,payday_flag,integer,Semi-monthly payroll flag (1st and 15th).,1,0 or 1
+walmart_stocksense_master.csv,extreme_weather_flag,integer,Extreme weather storm/blizzard flag.,0,0 or 1
+walmart_stocksense_master.csv,next_7_day_demand,integer,Target: Cumulative actual demand units over following 7 calendar days.,245,Target column for regression/forecasting; NaN for final 7 horizon days.

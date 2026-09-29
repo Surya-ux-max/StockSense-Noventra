@@ -1,0 +1,7 @@
+test_name,condition_a,condition_b,measured_metric,expected_behavior,validation_verdict
+Promotion Demand Lift,Promo Mean: 34.41 (Median: 25.0),Non-Promo Mean: 26.24 (Median: 20.0),+31.1% Demand Lift,Promotions lift sales by >15%,CONFIRMED
+Weekend Footfall Effect,Weekend Mean: 32.19,Weekday Mean: 26.20,+22.9% Weekend Lift,Weekends increase velocity by >10%,CONFIRMED
+Ambient Temperature Beverage Driver,Warm (>18C): 74.17 units,Cold (<10C): 42.31 units,Pearson r = 0.337,Positive correlation r > 0.20,CONFIRMED
+Store Format Assortment Multiplier,Supercenter: 30.25,Small Format: 13.71 (NM: 18.66),2.21x Demand Ratio,Supercenter demand exceeds Small Format,CONFIRMED
+Supply Chain Lead-Time Risk,Lead >=4 days SO: 7.13%,Lead <=2 days SO: 2.99%,+4.14% Risk Spread,Longer transit increases stockout risk,CONFIRMED
+Safety Stock Buffer Depletion,Stock <= Safety Stock SO: 36.95%,Stock > 2x Safety Stock SO: 0.00%,+36.95% Stockout Surge,Depleted buffer strongly predicts stockout,CONFIRMED

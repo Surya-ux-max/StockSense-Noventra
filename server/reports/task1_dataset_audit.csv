@@ -1,0 +1,20 @@
+CHECK,STATUS,SEVERITY,DETAILS,ACTION
+1. File Integrity,PASS,NONE,All 6 datasets and metadata files exist and are uncorrupted.,None. Files fully readable.
+2. Schema Integrity,PASS,NONE,Master contains exact 47 required columns aligned with data dictionary.,Proceed to modeling pipeline.
+3. Primary Keys,PASS,LOW,Master grain has 0 duplicates. Raw transactions has 5 intentional duplicate IDs.,Deduplicate transactions during raw preprocessing.
+4. Referential Integrity,PASS,NONE,"Zero orphan stores, products, or dates across all tables.",Maintain existing foreign key constraints.
+5. Master Grain,PASS,NONE,"Exactly 1 Row = 1 Date x 1 Store x 1 Product (15,000 unique combos).",Retain grain for tabular feature engineering.
+6. Date Continuity,PASS,NONE,"Continuous 50 days (2026-01-01 to 2026-02-19), 0 missing calendar days.",Support lag_1 to lag_14 features cleanly.
+7. Transaction Validity,PASS,LOW,"266,318 records. 3 negative return quantities present in raw data.",Filter quantity > 0 during transaction ETL.
+8. Product Validity,PASS,LOW,350 SKUs. cost < mrp holds universally. 5 category capitalization variations in raw.,Normalize categories using .str.title().
+9. Store Validity,PASS,NONE,35 stores across 5 states. Format size correctly correlates with footfall.,Valid for geographic and format segmentation.
+10. Inventory Conservation,PASS,NONE,0 arithmetic errors in master. 3 intentional mismatches in raw inventory.,Master is mathematically conserved.
+11. Stockout Consistency,PASS,NONE,Stockout occurs if and only if closing_stock=0 and lost_sales>0.,Target stockout_flag represents true operational event.
+12. Lost Sales Consistency,PASS,NONE,Lost sales non-negative; exactly matches unfulfilled demand.,Valid for lost sales value business KPI.
+13. External Factors,PASS,LOW,8 missing temp values in raw external factors; master is fully imputed.,Impute raw missing temp with city rolling mean.
+14. Target Validity,PASS,NONE,next_7_day_demand matches sum of sales t+1..t+7 with 0 leakage.,Valid target for regression / forecasting.
+15. Chronological Structure,PASS,NONE,Strict temporal sequence. Prospective test horizon spans final 7 days.,Apply chronological 60/20/20 train/val/test split.
+16. Leakage Audit,PASS,NONE,No future information embedded in any predictor feature column.,Safe for training without data leakage.
+17. Class Imbalance,PASS,NONE,Stockout rate 4.54% (681 positive cases). Sufficient for classification.,Use PR-AUC and class-weighted LightGBM.
+18. Business Relationships,PASS,NONE,All 6 empirical hypotheses confirmed with realistic effect sizes.,Dataset learnable by ML models.
+19. Business KPIs,PASS,NONE,"Revenue ($2.52M), Lost Sales ($81.8K), DOI (2.3d) mathematically verified.",Valid for management dashboard and ROI impact.

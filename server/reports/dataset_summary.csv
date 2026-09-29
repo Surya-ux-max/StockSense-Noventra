@@ -1,0 +1,18 @@
+metric,value
+Number of Rows,15000
+Number of Columns,47
+Number of Stores (Master / Catalog),35 / 35
+Number of Products (Master / Catalog),205 / 350
+Number of Categories,30
+Number of Suppliers,30
+Date Range,2026-01-01 to 2026-02-19
+Total Units Sold,418195
+Total Revenue ($),"$2,520,443.08"
+Average Daily Demand (units/row),27.88
+Stockout Rate (%),4.54%
+Total Lost Sales Units,15595
+Estimated Lost Sales Value ($),"$81,846.25"
+Promotion Rate (%),20.03%
+Average Discount (%),4.51%
+Average Lead Time (days),2.46
+Days of Inventory Coverage (DOI),2.3 days

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Lime Yellow Theme Tokens (replacing white everywhere) */
+    --bg-page: #FAF5E8;
+    --bg-surface: #FCF8EE;
+    --bg-surface-elevated: #FFFDF7;
+    --bg-container: #F6EEDB;
+    --bg-pill: #EFE4CF;
+    --border-theme: #EBDDC6;
+    --border-subtle: #F0E5D3;
+    
+    --primary-blue: #005CE6;
+    --primary-blue-hover: #004EC2;
+    --accent-orange: #EA7A18;
+    --accent-orange-hover: #D56B10;
+    
+    --text-primary: #111827;
+    --text-secondary: #4B5563;
+    --text-muted: #807A70;
+
+    /* Semantic Risk Badges */
+    --risk-high-bg: #FEE2E2;
+    --risk-high-text: #B91C1C;
+    --risk-high-border: #FCA5A5;
+
+    --risk-med-bg: #FEF3C7;
+    --risk-med-text: #B45309;
+    --risk-med-border: #FCD34D;
+
+    --risk-low-bg: #DCFCE7;
+    --risk-low-text: #15803D;
+    --risk-low-border: #86EFAC;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom scrollbars matching lime yellow theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9CBBA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFAF9B;
+}

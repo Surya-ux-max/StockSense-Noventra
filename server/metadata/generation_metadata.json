@@ -1,0 +1,262 @@
+{
+    "project": "StockSense-Noventra Retail Decision Intelligence",
+    "hackathon": "IntelliData 2026",
+    "simulation_context": "Walmart US Retail Network",
+    "disclaimer": "Synthetic simulation constructed with realistic Walmart organizational structure and operational physics. Contains no proprietary Walmart data.",
+    "master_grain": "ONE ROW = ONE DATE x ONE STORE x ONE PRODUCT",
+    "time_horizon": {
+        "start_date": "2026-01-01",
+        "end_date": "2026-02-19",
+        "duration_days": 50
+    },
+    "random_seed": 42,
+    "dataset_kpis": {
+        "Number of Rows": 15000,
+        "Number of Columns": 47,
+        "Number of Stores (Master / Catalog)": "35 / 35",
+        "Number of Products (Master / Catalog)": "205 / 350",
+        "Number of Categories": 30,
+        "Number of Suppliers": 30,
+        "Date Range": "2026-01-01 to 2026-02-19",
+        "Total Units Sold": 418195,
+        "Total Revenue ($)": "$2,520,443.08",
+        "Average Daily Demand (units/row)": 27.88,
+        "Stockout Rate (%)": "4.54%",
+        "Total Lost Sales Units": 15595,
+        "Estimated Lost Sales Value ($)": "$81,846.25",
+        "Promotion Rate (%)": "20.03%",
+        "Average Discount (%)": "4.51%",
+        "Average Lead Time (days)": 2.46,
+        "Days of Inventory Coverage (DOI)": "2.3 days"
+    },
+    "business_formulas": {
+        "inventory_equation": "closing_stock = max(0, opening_stock + received_qty + transfer_in_qty - sold_qty - transfer_out_qty)",
+        "safety_stock": "ceil(1.65 * std_daily_demand * sqrt(lead_days))",
+        "reorder_level": "ceil(mean_daily_demand * lead_days + safety_stock)",
+        "recommended_order": "max(0, ceil((forecast_demand + safety_stock - current_stock - incoming_stock) / case_pack_qty) * case_pack_qty)",
+        "lost_sales_value": "lost_sales_units * selling_price",
+        "stockout_classification": {
+            "HIGH": "stockout_probability >= 0.70",
+            "MEDIUM": "0.40 <= stockout_probability < 0.70",
+            "LOW": "stockout_probability < 0.40"
+        }
+    },
+    "intentional_data_quality_traps_hidden_log": [
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-01-28, city=Houston",
+            "column": "temp_c",
+            "original_value": 13.0,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-02-14, city=San Jose",
+            "column": "temp_c",
+            "original_value": 11.3,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-01-16, city=Tallahassee",
+            "column": "temp_c",
+            "original_value": 21.6,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-02-07, city=Houston",
+            "column": "temp_c",
+            "original_value": 20.1,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-01-20, city=Rochester",
+            "column": "temp_c",
+            "original_value": -3.6,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-01-19, city=Green Bay",
+            "column": "temp_c",
+            "original_value": -5.8,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-02-08, city=Los Angeles",
+            "column": "temp_c",
+            "original_value": 15.1,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "external_factors.csv",
+            "row_identifier": "date=2026-01-04, city=Dallas",
+            "column": "temp_c",
+            "original_value": 11.5,
+            "corrupted_value": null,
+            "anomaly_type": "Missing Value",
+            "expected_correction": "Impute with regional 3-day rolling mean or same-day state average."
+        },
+        {
+            "dataset": "products.csv",
+            "row_identifier": "product_id=PRD_0043",
+            "column": "category",
+            "original_value": "Soft Drinks",
+            "corrupted_value": "soft drinks",
+            "anomaly_type": "Case Inconsistency",
+            "expected_correction": "Standardize using str.title() or taxonomy master mapping."
+        },
+        {
+            "dataset": "products.csv",
+            "row_identifier": "product_id=PRD_0162",
+            "column": "category",
+            "original_value": "Frozen Meals",
+            "corrupted_value": "FROZEN MEALS",
+            "anomaly_type": "Case Inconsistency",
+            "expected_correction": "Standardize using str.title() or taxonomy master mapping."
+        },
+        {
+            "dataset": "products.csv",
+            "row_identifier": "product_id=PRD_0051",
+            "column": "category",
+            "original_value": "Water",
+            "corrupted_value": "water",
+            "anomaly_type": "Case Inconsistency",
+            "expected_correction": "Standardize using str.title() or taxonomy master mapping."
+        },
+        {
+            "dataset": "products.csv",
+            "row_identifier": "product_id=PRD_0188",
+            "column": "category",
+            "original_value": "Frozen Produce",
+            "corrupted_value": "FROZEN PRODUCE",
+            "anomaly_type": "Case Inconsistency",
+            "expected_correction": "Standardize using str.title() or taxonomy master mapping."
+        },
+        {
+            "dataset": "products.csv",
+            "row_identifier": "product_id=PRD_0156",
+            "column": "category",
+            "original_value": "Cooking & Baking",
+            "corrupted_value": "cooking & baking",
+            "anomaly_type": "Case Inconsistency",
+            "expected_correction": "Standardize using str.title() or taxonomy master mapping."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00205963",
+            "column": "transaction_id",
+            "original_value": "Unique ID",
+            "corrupted_value": "Duplicate Entry",
+            "anomaly_type": "Primary Key Duplicate",
+            "expected_correction": "Deduplicate transactions keeping first occurrence or drop exact duplicates."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00121512",
+            "column": "transaction_id",
+            "original_value": "Unique ID",
+            "corrupted_value": "Duplicate Entry",
+            "anomaly_type": "Primary Key Duplicate",
+            "expected_correction": "Deduplicate transactions keeping first occurrence or drop exact duplicates."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00244547",
+            "column": "transaction_id",
+            "original_value": "Unique ID",
+            "corrupted_value": "Duplicate Entry",
+            "anomaly_type": "Primary Key Duplicate",
+            "expected_correction": "Deduplicate transactions keeping first occurrence or drop exact duplicates."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00118130",
+            "column": "transaction_id",
+            "original_value": "Unique ID",
+            "corrupted_value": "Duplicate Entry",
+            "anomaly_type": "Primary Key Duplicate",
+            "expected_correction": "Deduplicate transactions keeping first occurrence or drop exact duplicates."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00103311",
+            "column": "transaction_id",
+            "original_value": "Unique ID",
+            "corrupted_value": "Duplicate Entry",
+            "anomaly_type": "Primary Key Duplicate",
+            "expected_correction": "Deduplicate transactions keeping first occurrence or drop exact duplicates."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00118332",
+            "column": "quantity",
+            "original_value": 2,
+            "corrupted_value": -2,
+            "anomaly_type": "Impossible Negative Value",
+            "expected_correction": "Filter out return records (quantity < 0) or treat as separate returns table."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00067534",
+            "column": "quantity",
+            "original_value": 3,
+            "corrupted_value": -3,
+            "anomaly_type": "Impossible Negative Value",
+            "expected_correction": "Filter out return records (quantity < 0) or treat as separate returns table."
+        },
+        {
+            "dataset": "transactions.csv",
+            "row_identifier": "transaction_id=TXN_00173944",
+            "column": "quantity",
+            "original_value": 1,
+            "corrupted_value": -1,
+            "anomaly_type": "Impossible Negative Value",
+            "expected_correction": "Filter out return records (quantity < 0) or treat as separate returns table."
+        },
+        {
+            "dataset": "inventory.csv",
+            "row_identifier": "date=2026-01-14, store=WMT_NY_029, product=PRD_0014",
+            "column": "closing_stock",
+            "original_value": 0,
+            "corrupted_value": 2,
+            "anomaly_type": "Inventory Equation Mismatch",
+            "expected_correction": "Recompute closing_stock = max(0, opening + received + transfer_in - sold - transfer_out)."
+        },
+        {
+            "dataset": "inventory.csv",
+            "row_identifier": "date=2026-02-15, store=WMT_FL_025, product=PRD_0196",
+            "column": "closing_stock",
+            "original_value": 0,
+            "corrupted_value": 2,
+            "anomaly_type": "Inventory Equation Mismatch",
+            "expected_correction": "Recompute closing_stock = max(0, opening + received + transfer_in - sold - transfer_out)."
+        },
+        {
+            "dataset": "inventory.csv",
+            "row_identifier": "date=2026-01-22, store=WMT_NY_029, product=PRD_0096",
+            "column": "closing_stock",
+            "original_value": 80,
+            "corrupted_value": 82,
+            "anomaly_type": "Inventory Equation Mismatch",
+            "expected_correction": "Recompute closing_stock = max(0, opening + received + transfer_in - sold - transfer_out)."
+        }
+    ]
+}

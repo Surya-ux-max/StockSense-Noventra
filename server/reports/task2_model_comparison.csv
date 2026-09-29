@@ -1,0 +1,9 @@
+model,MAE,RMSE,MAPE (%),WAPE (%),R2,Precision,Recall,F1,ROC_AUC,PR_AUC,Brier_Score
+Baseline 1 (7-Day Rolling Mean),36.59,60.02,18.34,17.68,0.883,,,,,,
+Baseline 2 (Daily Sales x 7),64.09,114.95,34.33,30.97,0.5709,,,,,,
+Ridge Regression,31.24,48.62,21.12,15.1,0.9232,,,,,,
+Random Forest Regressor — FINAL SUBMISSION MODEL,27.91,45.37,13.66,13.49,0.9332,,,,,,
+HistGradientBoosting Regressor [Experimental benchmark — not used in final submission because it is outside the permitted algorithm list],27.16,44.39,13.77,13.13,0.936,,,,,,
+Logistic Regression (Baseline),,,,,,0.5198,0.6351,0.5717,0.7341,0.596,0.1989
+Random Forest Classifier [SELECTED],,,,,,0.5884,0.5563,0.5719,0.7655,0.6096,0.1811
+Calibrated HistGradientBoosting,,,,,,0.9,0.0095,0.0187,0.7268,0.5706,0.2046

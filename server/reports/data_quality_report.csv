@@ -1,0 +1,18 @@
+check_id,check_name,scope,status,details
+1,Master Primary Key Uniqueness,walmart_stocksense_master.csv,PASS,0 duplicate grain rows found. Expected: 0.
+2,Duplicate Transaction IDs,transactions.csv,DETECTED_INTENTIONAL_ANOMALY,5 duplicate transaction IDs present (controlled data-quality round trap).
+3,Predictor Missing Values,walmart_stocksense_master.csv,PASS,0 missing values in predictor columns.
+4,Master Non-negative Units Sold,walmart_stocksense_master.csv,PASS,0 negative sales values in master.
+5,Realistic Price Boundary,walmart_stocksense_master.csv,PASS,0 price violations found.
+6,Master Inventory Arithmetic Balance,walmart_stocksense_master.csv,PASS,0 arithmetic mismatches in master.
+7,Zero Negative Inventory,walmart_stocksense_master.csv,PASS,0 negative inventory rows in master.
+8,Stockout Flag & Lost Sales Consistency,walmart_stocksense_master.csv,PASS,0 inconsistent stockout flags.
+9,Non-negative Lost Sales Units,walmart_stocksense_master.csv,PASS,0 negative lost sales values.
+10,Store Master Referential Integrity,walmart_stocksense_master.csv,PASS,0 unmatched stores.
+11,Store-Product-Date Single Observation,walmart_stocksense_master.csv,PASS,"Max count per (store, product, date) is 1."
+12,Calendar Continuity,walmart_stocksense_master.csv,PASS,0 missing calendar days in observation series.
+13,Target next_7_day_demand Availability,walmart_stocksense_master.csv,PASS,12900/15000 rows have complete 7-day targets; remaining 2100 rows represent the out-of-sample evaluation horizon.
+14,No Feature Leakage Verification,walmart_stocksense_master.csv,PASS,Predictor set strictly limited to concurrent operational features (t <= current date).
+15,Inventory-Master Row Alignment,inventory.csv vs master,PASS,Row count difference: 0.
+16,Master Category Normalization,walmart_stocksense_master.csv,PASS,30 standardized categories present in master.
+17,Cost vs MRP Margins,walmart_stocksense_master.csv,PASS,0 margin violations (cost >= mrp).

@@ -1,0 +1,7 @@
+dataset,issue,affected_rows,resolution,method,status
+transactions.csv,Duplicate Primary Key (transaction_id),5,Deduplicate preserving first genuine transaction record,"drop_duplicates(subset=['transaction_id'], keep='first')",RESOLVED
+transactions.csv,Invalid Negative Quantities (Unflagged Returns),3,Filter out non-positive sales units to align with gross POS demand,df[df['quantity'] > 0],RESOLVED
+products.csv,Inconsistent Category Casing (lowercase/uppercase),5,Standardize all merchandise category strings to Title Case,df['category'].str.title(),RESOLVED
+stores.csv,None detected during Task 1 audit,0,Verified complete referential integrity and format distributions,Integrity validation check,PASS
+external_factors.csv,Missing Temperature Values (Sensor Dropouts),8,Impute with localized city/state seasonal median temperature,"df.groupby(['state', 'city'])['temp_c'].transform(median)",RESOLVED
+inventory.csv,Closing Stock Arithmetic Discrepancies,3,Rebalance closing stock based on physical conservation law,"closing = max(0, opening + received + xfer_in - sold - xfer_out)",RESOLVED

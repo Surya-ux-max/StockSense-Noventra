@@ -1,0 +1,4 @@
+model,save_path,load_success,prediction_success,prediction_consistency,test_sample_size
+Demand Model (Random Forest Regressor — FINAL SUBMISSION MODEL),D:\StockSense-Noventra\server\models\demand\demand_model.pkl,True,True,True,20
+Stockout Risk Model (Random Forest Classifier [SELECTED]),D:\StockSense-Noventra\server\models\stockout\stockout_model.pkl,True,True,True,20
+Baseline Models (Ridge & Logit),D:\StockSense-Noventra\server\models\baselines,True,True,True,20

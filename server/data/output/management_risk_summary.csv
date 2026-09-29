@@ -1,0 +1,301 @@
+store_id,product_id,category,predicted_7_day_demand,stockout_probability,risk_level,recommended_order_qty,manager_action
+WMT_TX_013,PRD_0027,Dairy Products,221,0.8144,HIGH,96,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_031,PRD_0150,Canned Goods,288,0.8004,HIGH,192,Raise replenishment order immediately; request expedited DC transfer.
+WMT_TX_012,PRD_0026,Dairy Products,486,0.7943,HIGH,288,Raise replenishment order immediately; request expedited DC transfer.
+WMT_TX_010,PRD_0002,Dairy Products,636,0.7907,HIGH,360,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_029,PRD_0029,Dairy Products,312,0.7841,HIGH,144,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_033,PRD_0030,Dairy Products,217,0.7808,HIGH,60,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_035,PRD_0141,Canned Goods,279,0.777,HIGH,120,Raise replenishment order immediately; request expedited DC transfer.
+WMT_TX_014,PRD_0029,Dairy Products,338,0.766,HIGH,144,Raise replenishment order immediately; request expedited DC transfer.
+WMT_FL_025,PRD_0024,Dairy Products,455,0.7632,HIGH,216,Raise replenishment order immediately; request expedited DC transfer.
+WMT_CA_002,PRD_0028,Dairy Products,203,0.7566,HIGH,24,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_029,PRD_0014,Dairy Products,318,0.7543,HIGH,192,Raise replenishment order immediately; request expedited DC transfer.
+WMT_FL_028,PRD_0005,Dairy Products,518,0.7514,HIGH,372,Raise replenishment order immediately; request expedited DC transfer.
+WMT_TX_013,PRD_0044,Soft Drinks,206,0.741,HIGH,48,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_029,PRD_0008,Dairy Products,328,0.7229,HIGH,114,Raise replenishment order immediately; request expedited DC transfer.
+WMT_TX_012,PRD_0034,Soft Drinks,245,0.7132,HIGH,84,Raise replenishment order immediately; request expedited DC transfer.
+WMT_WI_020,PRD_0146,Canned Goods,196,0.7042,HIGH,36,Raise replenishment order immediately; request expedited DC transfer.
+WMT_CA_006,PRD_0043,Soft Drinks,348,0.7041,HIGH,180,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_033,PRD_0021,Dairy Products,208,0.7038,HIGH,48,Raise replenishment order immediately; request expedited DC transfer.
+WMT_CA_002,PRD_0096,Salty Snacks,49,0.7036,HIGH,0,Raise replenishment order immediately; request expedited DC transfer.
+WMT_NY_031,PRD_0034,Soft Drinks,423,0.7017,HIGH,108,Raise replenishment order immediately; request expedited DC transfer.
+WMT_FL_022,PRD_0074,Coffee & Tea,438,0.7009,HIGH,180,Raise replenishment order immediately; request expedited DC transfer.
+WMT_WI_020,PRD_0083,Salty Snacks,556,0.6915,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0085,Salty Snacks,461,0.6898,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0034,Soft Drinks,254,0.688,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0054,Water,565,0.6848,MEDIUM,288,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0110,Sweet Snacks,214,0.6847,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0106,Sweet Snacks,192,0.6823,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_025,PRD_0003,Dairy Products,362,0.6721,MEDIUM,240,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_015,PRD_0065,Juice,76,0.6687,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_002,PRD_0077,Coffee & Tea,118,0.6639,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_031,PRD_0184,Frozen Produce,404,0.6522,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_021,PRD_0008,Dairy Products,412,0.6426,MEDIUM,132,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0077,Coffee & Tea,334,0.6422,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0180,Ice Cream,202,0.6339,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_020,PRD_0116,Healthy Snacks,357,0.6308,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0085,Salty Snacks,239,0.629,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0330,Basics,71,0.6286,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_020,PRD_0059,Juice,617,0.6279,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_008,PRD_0133,Pantry Staples,77,0.6252,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0113,Healthy Snacks,153,0.6233,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0063,Juice,480,0.6224,MEDIUM,156,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_002,PRD_0050,Water,109,0.6218,MEDIUM,32,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0167,Frozen Meals,112,0.6218,MEDIUM,56,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0024,Dairy Products,584,0.621,MEDIUM,276,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0084,Salty Snacks,466,0.6205,MEDIUM,180,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0051,Water,442,0.6194,MEDIUM,240,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_013,PRD_0083,Salty Snacks,144,0.6156,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_032,PRD_0147,Canned Goods,114,0.615,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0178,Ice Cream,99,0.6146,MEDIUM,16,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_007,PRD_0005,Dairy Products,422,0.6143,MEDIUM,168,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0226,Hair Care,195,0.6122,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_028,PRD_0129,Pantry Staples,237,0.6092,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_015,PRD_0114,Healthy Snacks,74,0.6042,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0061,Juice,721,0.6036,MEDIUM,306,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0197,Cleaning Supplies,138,0.6034,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0315,Kitchenware,20,0.6034,MEDIUM,8,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_013,PRD_0114,Healthy Snacks,116,0.6023,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0057,Juice,760,0.5986,MEDIUM,84,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_020,PRD_0159,Cooking & Baking,221,0.5959,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0110,Sweet Snacks,238,0.5908,MEDIUM,168,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_017,PRD_0263,Vitamins,81,0.5869,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0040,Soft Drinks,386,0.5868,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0098,Salty Snacks,156,0.5866,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0225,Hair Care,155,0.5851,MEDIUM,42,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_013,PRD_0271,Skin Care,29,0.5841,MEDIUM,12,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0083,Salty Snacks,368,0.5835,MEDIUM,168,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0198,Cleaning Supplies,163,0.5828,MEDIUM,102,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_032,PRD_0141,Canned Goods,116,0.5785,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0003,Dairy Products,456,0.5767,MEDIUM,228,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_019,PRD_0121,Pantry Staples,97,0.5755,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_015,PRD_0051,Water,80,0.5744,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_034,PRD_0010,Dairy Products,124,0.5698,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_013,PRD_0005,Dairy Products,198,0.568,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0113,Healthy Snacks,210,0.5672,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0019,Dairy Products,443,0.5656,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_033,PRD_0137,Pantry Staples,203,0.5641,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0146,Canned Goods,120,0.5631,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_017,PRD_0081,Salty Snacks,566,0.5627,MEDIUM,288,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0086,Salty Snacks,502,0.559,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_027,PRD_0006,Dairy Products,435,0.5572,MEDIUM,228,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0079,Salty Snacks,479,0.5552,MEDIUM,264,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0073,Coffee & Tea,428,0.5548,MEDIUM,276,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_019,PRD_0139,Pantry Staples,79,0.5534,MEDIUM,12,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0085,Salty Snacks,335,0.5525,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_008,PRD_0168,Frozen Meals,39,0.5512,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0225,Hair Care,127,0.5508,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0096,Salty Snacks,140,0.5492,MEDIUM,84,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0295,Dog Food,42,0.5475,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_019,PRD_0114,Healthy Snacks,106,0.5472,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_008,PRD_0080,Salty Snacks,134,0.5448,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0308,Cat Care,91,0.5435,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0323,Basics,29,0.5431,MEDIUM,18,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_004,PRD_0224,Hair Care,313,0.543,MEDIUM,252,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_003,PRD_0136,Pantry Staples,116,0.5407,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_020,PRD_0099,Salty Snacks,336,0.5396,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0056,Juice,580,0.536,MEDIUM,372,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0048,Water,539,0.5326,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_028,PRD_0228,Hair Care,127,0.5313,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0174,Ice Cream,212,0.5307,MEDIUM,108,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_031,PRD_0187,Frozen Produce,181,0.5225,MEDIUM,132,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0321,Basics,26,0.522,MEDIUM,12,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_032,PRD_0107,Sweet Snacks,87,0.5209,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_031,PRD_0081,Salty Snacks,552,0.5176,MEDIUM,312,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_003,PRD_0200,Cleaning Supplies,113,0.5171,MEDIUM,78,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0174,Ice Cream,242,0.5163,MEDIUM,60,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0072,Coffee & Tea,552,0.5152,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0112,Healthy Snacks,119,0.5137,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0179,Ice Cream,101,0.5134,MEDIUM,56,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0175,Ice Cream,203,0.5124,MEDIUM,156,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_025,PRD_0068,Coffee & Tea,568,0.5119,MEDIUM,216,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_003,PRD_0149,Canned Goods,112,0.5108,MEDIUM,84,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_028,PRD_0091,Salty Snacks,176,0.5097,MEDIUM,120,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0120,Healthy Snacks,247,0.5024,MEDIUM,168,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_033,PRD_0156,Cooking & Baking,135,0.5019,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0148,Canned Goods,174,0.4973,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0109,Sweet Snacks,203,0.4965,MEDIUM,168,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0113,Healthy Snacks,192,0.4933,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_034,PRD_0078,Salty Snacks,205,0.4911,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0186,Frozen Produce,149,0.4902,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0248,Oral Care,297,0.4899,MEDIUM,264,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_014,PRD_0098,Salty Snacks,191,0.4876,MEDIUM,144,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_033,PRD_0044,Soft Drinks,393,0.4863,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_024,PRD_0239,Body Care,116,0.486,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_032,PRD_0046,Water,111,0.4857,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0144,Canned Goods,282,0.4853,MEDIUM,216,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0322,Basics,48,0.4841,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_029,PRD_0095,Salty Snacks,196,0.483,MEDIUM,120,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_033,PRD_0242,Oral Care,142,0.4822,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0204,Paper Goods,145,0.482,MEDIUM,56,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_019,PRD_0102,Sweet Snacks,57,0.4817,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_026,PRD_0179,Ice Cream,183,0.4811,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0021,Dairy Products,557,0.4786,MEDIUM,336,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0112,Healthy Snacks,197,0.4767,MEDIUM,144,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0059,Juice,727,0.4705,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0204,Paper Goods,201,0.4703,MEDIUM,128,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_031,PRD_0230,Hair Care,153,0.4666,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_010,PRD_0207,Paper Goods,330,0.4627,MEDIUM,132,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0201,Paper Goods,120,0.4614,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_025,PRD_0021,Dairy Products,366,0.4601,MEDIUM,216,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0114,Healthy Snacks,187,0.4588,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0292,Dog Food,44,0.4552,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0091,Salty Snacks,161,0.4529,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_016,PRD_0205,Paper Goods,278,0.4525,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_009,PRD_0040,Soft Drinks,426,0.4519,MEDIUM,252,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_008,PRD_0129,Pantry Staples,84,0.4509,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_003,PRD_0042,Soft Drinks,200,0.4497,MEDIUM,96,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_035,PRD_0176,Ice Cream,195,0.4434,MEDIUM,108,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0299,Dog Food,84,0.4431,MEDIUM,28,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0213,Laundry,151,0.4421,MEDIUM,32,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_031,PRD_0157,Cooking & Baking,148,0.4393,MEDIUM,36,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_017,PRD_0170,Frozen Meals,225,0.4371,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_030,PRD_0231,Body Care,142,0.4355,MEDIUM,108,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_027,PRD_0150,Canned Goods,273,0.4202,MEDIUM,144,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_020,PRD_0261,Vitamins,82,0.4186,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0297,Dog Food,30,0.4181,MEDIUM,16,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_017,PRD_0342,Accessories,37,0.4172,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_TX_012,PRD_0281,Cosmetics,54,0.4163,MEDIUM,24,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0131,Pantry Staples,195,0.4123,MEDIUM,120,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0320,Kitchenware,52,0.4114,MEDIUM,32,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0346,Accessories,29,0.411,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_005,PRD_0290,Cosmetics,74,0.4105,MEDIUM,48,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_006,PRD_0342,Accessories,24,0.4081,MEDIUM,0,Review replenishment plan and advance delivery schedule by 48h.
+WMT_NY_034,PRD_0039,Soft Drinks,142,0.408,MEDIUM,72,Review replenishment plan and advance delivery schedule by 48h.
+WMT_WI_017,PRD_0079,Salty Snacks,609,0.4043,MEDIUM,312,Review replenishment plan and advance delivery schedule by 48h.
+WMT_CA_001,PRD_0188,Frozen Produce,211,0.4029,MEDIUM,192,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_022,PRD_0233,Body Care,254,0.4024,MEDIUM,144,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0214,Laundry,239,0.4011,MEDIUM,16,Review replenishment plan and advance delivery schedule by 48h.
+WMT_FL_023,PRD_0203,Paper Goods,214,0.3936,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_NY_031,PRD_0220,Laundry,273,0.3918,LOW,112,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0176,Ice Cream,215,0.3867,LOW,120,Monitor inventory; current stock buffer sufficient.
+WMT_WI_020,PRD_0258,Otc Medicine,30,0.3853,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0146,Canned Goods,113,0.3836,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0179,Ice Cream,124,0.3825,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_CA_005,PRD_0194,Cleaning Supplies,210,0.3822,LOW,132,Monitor inventory; current stock buffer sufficient.
+WMT_WI_017,PRD_0074,Coffee & Tea,547,0.3805,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0136,Pantry Staples,216,0.3803,LOW,90,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0159,Cooking & Baking,210,0.38,LOW,84,Monitor inventory; current stock buffer sufficient.
+WMT_WI_016,PRD_0200,Cleaning Supplies,267,0.3773,LOW,198,Monitor inventory; current stock buffer sufficient.
+WMT_NY_029,PRD_0306,Cat Care,24,0.3757,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_FL_026,PRD_0265,Vitamins,34,0.3753,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0089,Salty Snacks,279,0.3748,LOW,204,Monitor inventory; current stock buffer sufficient.
+WMT_FL_026,PRD_0211,Laundry,317,0.3746,LOW,104,Monitor inventory; current stock buffer sufficient.
+WMT_CA_001,PRD_0226,Hair Care,349,0.3716,LOW,96,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0055,Water,445,0.3699,LOW,300,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0146,Canned Goods,137,0.3637,LOW,84,Monitor inventory; current stock buffer sufficient.
+WMT_TX_010,PRD_0158,Cooking & Baking,253,0.3611,LOW,96,Monitor inventory; current stock buffer sufficient.
+WMT_WI_015,PRD_0161,Frozen Meals,62,0.3595,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0108,Sweet Snacks,124,0.3548,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_FL_022,PRD_0251,Otc Medicine,50,0.3543,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0213,Laundry,108,0.3518,LOW,88,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0217,Laundry,222,0.3517,LOW,112,Monitor inventory; current stock buffer sufficient.
+WMT_NY_031,PRD_0350,Accessories,38,0.35,LOW,20,Monitor inventory; current stock buffer sufficient.
+WMT_CA_005,PRD_0249,Oral Care,273,0.3379,LOW,72,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0081,Salty Snacks,600,0.3346,LOW,504,Monitor inventory; current stock buffer sufficient.
+WMT_NY_031,PRD_0219,Laundry,149,0.3334,LOW,16,Monitor inventory; current stock buffer sufficient.
+WMT_FL_022,PRD_0276,Skin Care,52,0.3326,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_NY_033,PRD_0153,Cooking & Baking,194,0.3294,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0291,Dog Food,50,0.3252,LOW,40,Monitor inventory; current stock buffer sufficient.
+WMT_WI_017,PRD_0339,Board Games,34,0.3248,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_TX_014,PRD_0201,Paper Goods,127,0.3229,LOW,16,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0057,Juice,165,0.3217,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0093,Salty Snacks,199,0.3212,LOW,108,Monitor inventory; current stock buffer sufficient.
+WMT_CA_005,PRD_0284,Cosmetics,60,0.3204,LOW,36,Monitor inventory; current stock buffer sufficient.
+WMT_TX_012,PRD_0208,Paper Goods,159,0.3196,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0004,Dairy Products,403,0.3195,LOW,312,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0278,Skin Care,81,0.319,LOW,60,Monitor inventory; current stock buffer sufficient.
+WMT_TX_014,PRD_0154,Cooking & Baking,199,0.3063,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0111,Healthy Snacks,196,0.3017,LOW,108,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0045,Water,621,0.2961,LOW,552,Monitor inventory; current stock buffer sufficient.
+WMT_CA_003,PRD_0206,Paper Goods,75,0.2945,LOW,40,Monitor inventory; current stock buffer sufficient.
+WMT_WI_017,PRD_0213,Laundry,140,0.2928,LOW,80,Monitor inventory; current stock buffer sufficient.
+WMT_WI_020,PRD_0303,Cat Care,34,0.2878,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_FL_023,PRD_0302,Cat Care,42,0.2864,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0106,Sweet Snacks,200,0.2849,LOW,120,Monitor inventory; current stock buffer sufficient.
+WMT_WI_017,PRD_0279,Skin Care,36,0.2824,LOW,6,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0315,Kitchenware,21,0.2817,LOW,8,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0157,Cooking & Baking,131,0.2795,LOW,84,Monitor inventory; current stock buffer sufficient.
+WMT_FL_026,PRD_0300,Dog Food,32,0.2751,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0297,Dog Food,33,0.272,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0170,Frozen Meals,221,0.2702,LOW,160,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0166,Frozen Meals,196,0.2673,LOW,112,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0200,Cleaning Supplies,246,0.2645,LOW,204,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0142,Canned Goods,214,0.2629,LOW,144,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0056,Juice,352,0.2606,LOW,264,Monitor inventory; current stock buffer sufficient.
+WMT_WI_016,PRD_0271,Skin Care,96,0.2598,LOW,54,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0062,Juice,569,0.255,LOW,444,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0196,Cleaning Supplies,240,0.252,LOW,186,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0005,Dairy Products,682,0.2513,LOW,312,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0280,Skin Care,93,0.2509,LOW,36,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0180,Ice Cream,354,0.2495,LOW,296,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0285,Cosmetics,74,0.2467,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0111,Healthy Snacks,214,0.2427,LOW,144,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0003,Dairy Products,394,0.2423,LOW,348,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0245,Oral Care,297,0.2422,LOW,192,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0171,Ice Cream,194,0.2377,LOW,152,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0162,Frozen Meals,86,0.2333,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0073,Coffee & Tea,130,0.2331,LOW,18,Monitor inventory; current stock buffer sufficient.
+WMT_WI_017,PRD_0338,Board Games,57,0.2325,LOW,30,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0276,Skin Care,51,0.2283,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_FL_026,PRD_0335,Board Games,45,0.2255,LOW,20,Monitor inventory; current stock buffer sufficient.
+WMT_WI_016,PRD_0293,Dog Food,69,0.2255,LOW,16,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0201,Paper Goods,135,0.2253,LOW,104,Monitor inventory; current stock buffer sufficient.
+WMT_WI_020,PRD_0296,Dog Food,35,0.2188,LOW,8,Monitor inventory; current stock buffer sufficient.
+WMT_FL_025,PRD_0294,Dog Food,28,0.2177,LOW,8,Monitor inventory; current stock buffer sufficient.
+WMT_CA_001,PRD_0325,Basics,115,0.2122,LOW,90,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0301,Cat Care,27,0.2117,LOW,6,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0259,Otc Medicine,41,0.2115,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0097,Salty Snacks,383,0.2064,LOW,240,Monitor inventory; current stock buffer sufficient.
+WMT_TX_012,PRD_0337,Board Games,25,0.2064,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_TX_013,PRD_0261,Vitamins,26,0.205,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0273,Skin Care,60,0.2019,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0295,Dog Food,36,0.2011,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0300,Dog Food,34,0.1964,LOW,16,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0266,Vitamins,76,0.1892,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0135,Pantry Staples,219,0.1886,LOW,156,Monitor inventory; current stock buffer sufficient.
+WMT_TX_010,PRD_0261,Vitamins,74,0.1881,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0262,Vitamins,79,0.1876,LOW,72,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0160,Cooking & Baking,157,0.1787,LOW,72,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0213,Laundry,129,0.1742,LOW,80,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0314,Kitchenware,47,0.1702,LOW,36,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0292,Dog Food,43,0.1665,LOW,16,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0112,Healthy Snacks,163,0.1629,LOW,132,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0272,Skin Care,42,0.1606,LOW,36,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0304,Cat Care,37,0.1585,LOW,18,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0215,Laundry,197,0.1572,LOW,96,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0332,Board Games,65,0.1559,LOW,50,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0287,Cosmetics,46,0.1542,LOW,48,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0348,Accessories,37,0.1536,LOW,20,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0140,Pantry Staples,217,0.1532,LOW,150,Monitor inventory; current stock buffer sufficient.
+WMT_FL_028,PRD_0265,Vitamins,28,0.1524,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_TX_014,PRD_0320,Kitchenware,37,0.1523,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0011,Dairy Products,608,0.152,LOW,486,Monitor inventory; current stock buffer sufficient.
+WMT_CA_003,PRD_0295,Dog Food,15,0.143,LOW,8,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0282,Cosmetics,28,0.1418,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0294,Dog Food,29,0.1393,LOW,8,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0249,Oral Care,254,0.1388,LOW,144,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0152,Cooking & Baking,215,0.1378,LOW,156,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0114,Healthy Snacks,310,0.1354,LOW,288,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0320,Kitchenware,41,0.1337,LOW,32,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0028,Dairy Products,602,0.1335,LOW,336,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0341,Accessories,86,0.1331,LOW,60,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0306,Cat Care,25,0.1289,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0199,Cleaning Supplies,240,0.1243,LOW,180,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0345,Accessories,59,0.1232,LOW,40,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0289,Cosmetics,35,0.1232,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0345,Accessories,64,0.1215,LOW,20,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0277,Skin Care,25,0.121,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0207,Paper Goods,344,0.1207,LOW,300,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0186,Frozen Produce,44,0.1169,LOW,12,Monitor inventory; current stock buffer sufficient.
+WMT_CA_007,PRD_0338,Board Games,35,0.1151,LOW,30,Monitor inventory; current stock buffer sufficient.
+WMT_TX_009,PRD_0153,Cooking & Baking,220,0.1117,LOW,144,Monitor inventory; current stock buffer sufficient.
+WMT_WI_021,PRD_0346,Accessories,48,0.1111,LOW,40,Monitor inventory; current stock buffer sufficient.
+WMT_NY_030,PRD_0311,Kitchenware,36,0.1007,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_CA_004,PRD_0334,Board Games,40,0.0929,LOW,0,Monitor inventory; current stock buffer sufficient.
+WMT_TX_011,PRD_0345,Accessories,82,0.0907,LOW,70,Monitor inventory; current stock buffer sufficient.
+WMT_FL_024,PRD_0347,Accessories,47,0.0891,LOW,40,Monitor inventory; current stock buffer sufficient.
+WMT_FL_027,PRD_0334,Board Games,50,0.0886,LOW,30,Monitor inventory; current stock buffer sufficient.
+WMT_CA_001,PRD_0334,Board Games,55,0.0881,LOW,30,Monitor inventory; current stock buffer sufficient.
+WMT_NY_034,PRD_0146,Canned Goods,41,0.0842,LOW,24,Monitor inventory; current stock buffer sufficient.
+WMT_WI_018,PRD_0274,Skin Care,10,0.0772,LOW,0,Monitor inventory; current stock buffer sufficient.

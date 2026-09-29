@@ -1,0 +1,36 @@
+store_id,state,city,store_type,floor_area_sqft,avg_daily_customers,region,distribution_center_id,distance_to_dc,pickup_enabled,delivery_enabled
+WMT_CA_001,CA,Los Angeles,Supercenter,217042,6449,West,WMT_DC_CA01,52.6,1,1
+WMT_CA_002,CA,San Diego,Small Format,19814,1549,West,WMT_DC_CA01,175.2,1,0
+WMT_CA_003,CA,San Jose,Neighborhood Market,40548,2027,West,WMT_DC_CA01,85.5,1,1
+WMT_CA_004,CA,Sacramento,Supercenter,196711,5265,West,WMT_DC_CA01,49.0,1,1
+WMT_CA_005,CA,Fresno,Supercenter,207110,5865,West,WMT_DC_CA01,149.5,1,1
+WMT_CA_006,CA,Los Angeles,Supercenter,163903,3481,West,WMT_DC_CA01,228.7,1,1
+WMT_CA_007,CA,San Diego,Supercenter,165860,3702,West,WMT_DC_CA01,45.1,1,1
+WMT_TX_008,TX,Houston,Small Format,15364,1358,Southwest,WMT_DC_TX01,165.1,1,0
+WMT_TX_009,TX,Dallas,Supercenter,171091,4165,Southwest,WMT_DC_TX01,37.6,1,1
+WMT_TX_010,TX,Austin,Supercenter,183320,4691,Southwest,WMT_DC_TX01,78.2,1,1
+WMT_TX_011,TX,San Antonio,Supercenter,192561,5176,Southwest,WMT_DC_TX01,34.6,1,1
+WMT_TX_012,TX,Fort Worth,Supercenter,160331,3458,Southwest,WMT_DC_TX01,199.0,1,1
+WMT_TX_013,TX,Houston,Neighborhood Market,38888,1777,Southwest,WMT_DC_TX01,209.6,1,1
+WMT_TX_014,TX,Dallas,Supercenter,178658,4386,Southwest,WMT_DC_TX01,90.2,1,1
+WMT_WI_015,WI,Milwaukee,Small Format,18138,1284,Midwest,WMT_DC_WI01,186.9,1,0
+WMT_WI_016,WI,Madison,Supercenter,191363,4971,Midwest,WMT_DC_WI01,112.9,1,1
+WMT_WI_017,WI,Green Bay,Supercenter,198184,5422,Midwest,WMT_DC_WI01,219.5,1,1
+WMT_WI_018,WI,Kenosha,Neighborhood Market,40745,1822,Midwest,WMT_DC_WI01,35.1,1,1
+WMT_WI_019,WI,Appleton,Small Format,22505,1602,Midwest,WMT_DC_WI01,196.4,1,0
+WMT_WI_020,WI,Milwaukee,Supercenter,208446,5971,Midwest,WMT_DC_WI01,216.9,1,1
+WMT_WI_021,WI,Madison,Supercenter,185626,4825,Midwest,WMT_DC_WI01,19.5,1,1
+WMT_FL_022,FL,Miami,Supercenter,167191,3898,Southeast,WMT_DC_FL01,93.0,1,1
+WMT_FL_023,FL,Orlando,Supercenter,202181,5647,Southeast,WMT_DC_FL01,231.7,1,1
+WMT_FL_024,FL,Tampa,Supercenter,177090,4343,Southeast,WMT_DC_FL01,26.2,1,1
+WMT_FL_025,FL,Jacksonville,Supercenter,176718,4307,Southeast,WMT_DC_FL01,50.2,1,0
+WMT_FL_026,FL,Tallahassee,Supercenter,200328,5561,Southeast,WMT_DC_FL01,187.1,1,1
+WMT_FL_027,FL,Miami,Supercenter,197938,5484,Southeast,WMT_DC_FL01,38.0,1,1
+WMT_FL_028,FL,Orlando,Supercenter,162446,3950,Southeast,WMT_DC_FL01,149.2,1,1
+WMT_NY_029,NY,New York,Supercenter,173589,4020,Northeast,WMT_DC_NY01,171.4,1,1
+WMT_NY_030,NY,Buffalo,Supercenter,180463,4594,Northeast,WMT_DC_NY01,43.2,1,1
+WMT_NY_031,NY,Rochester,Supercenter,199599,5514,Northeast,WMT_DC_NY01,135.6,1,1
+WMT_NY_032,NY,Albany,Small Format,23705,1726,Northeast,WMT_DC_NY01,158.5,1,1
+WMT_NY_033,NY,Syracuse,Neighborhood Market,48765,3093,Northeast,WMT_DC_NY01,160.5,1,1
+WMT_NY_034,NY,New York,Small Format,19883,1376,Northeast,WMT_DC_NY01,20.0,1,0
+WMT_NY_035,NY,Buffalo,Supercenter,169648,4262,Northeast,WMT_DC_NY01,162.7,1,1

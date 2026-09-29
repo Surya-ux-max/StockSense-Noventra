@@ -1,0 +1,7 @@
+model_type,model,MAE,RMSE,MAPE (%),WAPE (%),R2,Precision,Recall,F1,ROC_AUC,PR_AUC,Brier_Score,status
+Demand Forecasting,Baseline 1 (7-Day Rolling Mean),36.59,60.02,18.34,17.68,0.883,-,-,-,-,-,-,Benchmark
+Demand Forecasting,Baseline 2 (Daily Sales x 7),64.09,114.95,34.33,30.97,0.5709,-,-,-,-,-,-,Benchmark
+Demand Forecasting,Ridge Regression,31.24,48.62,21.12,15.1,0.9232,-,-,-,-,-,-,Permitted Candidate
+Demand Forecasting,Random Forest Regressor -- FINAL SUBMISSION MODEL,27.91,45.37,13.66,13.49,0.9332,-,-,-,-,-,-,FINAL SUBMISSION MODEL
+Stockout Classification,Logistic Regression (Baseline),-,-,-,-,-,0.5198,0.6351,0.5717,0.7341,0.5960,0.1989,Benchmark
+Stockout Classification,Random Forest Classifier -- FINAL SUBMISSION MODEL,-,-,-,-,-,0.5884,0.5563,0.5719,0.7655,0.6096,0.1811,FINAL SUBMISSION MODEL

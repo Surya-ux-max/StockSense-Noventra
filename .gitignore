@@ -1,0 +1,96 @@
+# ==========================================
+# Walmart StockSense Root .gitignore
+# ==========================================
+
+# ------------------------------------------
+# Environment Variables & Secrets (CRITICAL)
+# ------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+!client/.env.example
+!server/.env.example
+
+# ------------------------------------------
+# Client / Frontend (Node.js & Vite)
+# ------------------------------------------
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+dist-ssr/
+client/dist-ssr/
+.vite/
+client/.vite/
+.pnp
+.pnp.js
+
+# ------------------------------------------
+# Server / Backend (Python, uv & Models)
+# ------------------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+server/.venv/
+venv/
+server/venv/
+env/
+ENV/
+
+# Python Build & Distribution
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Quality Tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ------------------------------------------
+# Logs & Scratch Scripts
+# ------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+scratch/
+server/scratch/
+server/test_groq.py
+
+# ------------------------------------------
+# Operating System & IDE Files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

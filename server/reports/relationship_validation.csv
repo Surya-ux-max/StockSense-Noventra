@@ -1,0 +1,7 @@
+hypothesis,metric_a,metric_b,effect_size,causal_validation
+Promotions increase sales demand,Promo Mean: 34.41,Non-Promo Mean: 26.24,+31.1% Demand Lift,CONFIRMED
+Weekends lift retail sales volume,Weekend Mean: 32.19,Weekday Mean: 26.20,+22.9% Weekend Lift,CONFIRMED
+Warm temperatures drive beverage sales,Warm (>18C) Avg: 74.17,Cold (<10C) Avg: 42.31,Pearson r = 0.337,CONFIRMED
+Supercenters generate higher demand than Small Formats,Supercenter: 30.25,Small Format: 13.71,2.21x Demand Ratio,CONFIRMED
+Longer lead times elevate stock-out risk,Lead >=4d: 7.13%,Lead <=2d: 2.99%,+4.14% Risk Spread,CONFIRMED
+Inventory near or below safety stock triggers stockouts,Low Stock SO: 36.95%,Safe Stock SO: 0.00%,+36.95% Spread,CONFIRMED

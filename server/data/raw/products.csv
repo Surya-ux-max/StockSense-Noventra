@@ -1,0 +1,351 @@
+product_id,department,category,sub_category,brand,mrp,cost_price,shelf_life_days,supplier_id,case_pack_qty,perishable_flag
+PRD_0001,Dairy,Dairy Products,Fresh Milk,Fairlife,5.03,4.15,12,SUP_DAI_01,6,1
+PRD_0002,Dairy,Dairy Products,Fresh Milk,Fairlife,4.26,3.54,10,SUP_DAI_01,6,1
+PRD_0003,Dairy,Dairy Products,Fresh Milk,Fairlife,3.33,2.54,12,SUP_DAI_01,12,1
+PRD_0004,Dairy,Dairy Products,Fresh Milk,Horizon Organic,3.68,3.04,9,SUP_DAI_01,12,1
+PRD_0005,Dairy,Dairy Products,Fresh Milk,Great Value,4.23,3.45,11,SUP_DAI_01,12,1
+PRD_0006,Dairy,Dairy Products,Fresh Milk,Fairlife,4.28,3.33,8,SUP_DAI_01,6,1
+PRD_0007,Dairy,Dairy Products,Fresh Milk,Great Value,3.38,2.67,8,SUP_DAI_01,6,1
+PRD_0008,Dairy,Dairy Products,Fresh Milk,Horizon Organic,5.37,4.1,12,SUP_DAI_01,6,1
+PRD_0009,Dairy,Dairy Products,Fresh Milk,Horizon Organic,3.49,2.74,10,SUP_DAI_01,6,1
+PRD_0010,Dairy,Dairy Products,Fresh Milk,Great Value,5.11,4.22,9,SUP_DAI_01,12,1
+PRD_0011,Dairy,Dairy Products,Fresh Milk,Horizon Organic,4.22,3.47,10,SUP_DAI_01,6,1
+PRD_0012,Dairy,Dairy Products,Yogurt,Great Value,4.39,3.31,20,SUP_DAI_01,24,1
+PRD_0013,Dairy,Dairy Products,Yogurt,Dannon,3.96,3.04,23,SUP_DAI_01,24,1
+PRD_0014,Dairy,Dairy Products,Yogurt,Chobani,4.83,3.46,25,SUP_DAI_01,12,1
+PRD_0015,Dairy,Dairy Products,Yogurt,Chobani,3.43,2.41,23,SUP_DAI_01,12,1
+PRD_0016,Dairy,Dairy Products,Yogurt,Chobani,2.35,1.84,14,SUP_DAI_01,12,1
+PRD_0017,Dairy,Dairy Products,Yogurt,Oikos,2.72,2.1,14,SUP_DAI_01,12,1
+PRD_0018,Dairy,Dairy Products,Yogurt,Chobani,3.9,2.81,23,SUP_DAI_01,24,1
+PRD_0019,Dairy,Dairy Products,Yogurt,Great Value,3.68,2.61,27,SUP_DAI_01,24,1
+PRD_0020,Dairy,Dairy Products,Yogurt,Dannon,1.6,1.22,24,SUP_DAI_01,12,1
+PRD_0021,Dairy,Dairy Products,Yogurt,Great Value,3.45,2.67,22,SUP_DAI_01,12,1
+PRD_0022,Dairy,Dairy Products,Yogurt,Chobani,4.87,3.48,25,SUP_DAI_01,12,1
+PRD_0023,Dairy,Dairy Products,Cheese & Butter,Sargento,4.13,3.2,76,SUP_DAI_01,24,1
+PRD_0024,Dairy,Dairy Products,Cheese & Butter,Great Value,4.96,3.77,85,SUP_DAI_01,12,1
+PRD_0025,Dairy,Dairy Products,Cheese & Butter,Tillamook,5.51,3.91,51,SUP_DAI_01,12,1
+PRD_0026,Dairy,Dairy Products,Cheese & Butter,Kraft,5.41,4.11,87,SUP_DAI_01,12,1
+PRD_0027,Dairy,Dairy Products,Cheese & Butter,Sargento,6.11,4.23,73,SUP_DAI_01,24,1
+PRD_0028,Dairy,Dairy Products,Cheese & Butter,Kraft,3.45,2.53,54,SUP_DAI_01,24,1
+PRD_0029,Dairy,Dairy Products,Cheese & Butter,Great Value,6.95,5.2,50,SUP_DAI_01,12,1
+PRD_0030,Dairy,Dairy Products,Cheese & Butter,Sargento,7.06,5.31,74,SUP_DAI_01,12,1
+PRD_0031,Dairy,Dairy Products,Cheese & Butter,Tillamook,4.57,3.43,52,SUP_DAI_01,12,1
+PRD_0032,Dairy,Dairy Products,Cheese & Butter,Kraft,5.16,3.67,57,SUP_DAI_01,24,1
+PRD_0033,Dairy,Dairy Products,Cheese & Butter,Sargento,3.74,2.84,70,SUP_DAI_01,24,1
+PRD_0034,Beverages,Soft Drinks,Carbonated Drinks,Coca-Cola,2.65,1.9,225,SUP_BEV_02,12,0
+PRD_0035,Beverages,Soft Drinks,Carbonated Drinks,Pepsi,6.34,4.63,364,SUP_BEV_02,12,0
+PRD_0036,Beverages,Soft Drinks,Carbonated Drinks,Coca-Cola,7.85,5.47,186,SUP_BEV_02,24,0
+PRD_0037,Beverages,Soft Drinks,Carbonated Drinks,Coca-Cola,5.9,3.9,278,SUP_BEV_02,24,0
+PRD_0038,Beverages,Soft Drinks,Carbonated Drinks,Sprite,5.43,3.65,194,SUP_BEV_02,24,0
+PRD_0039,Beverages,Soft Drinks,Carbonated Drinks,Dr Pepper,3.66,2.36,267,SUP_BEV_02,24,0
+PRD_0040,Beverages,Soft Drinks,Carbonated Drinks,Pepsi,4.55,2.93,327,SUP_BEV_02,12,0
+PRD_0041,Beverages,Soft Drinks,Carbonated Drinks,Sprite,5.18,3.42,338,SUP_BEV_02,24,0
+PRD_0042,Beverages,Soft Drinks,Carbonated Drinks,Dr Pepper,3.54,2.33,329,SUP_BEV_02,24,0
+PRD_0043,Beverages,soft drinks,Carbonated Drinks,Sprite,2.83,1.78,253,SUP_BEV_02,12,0
+PRD_0044,Beverages,Soft Drinks,Carbonated Drinks,Pepsi,7.05,4.67,316,SUP_BEV_02,24,0
+PRD_0045,Beverages,Water,Bottled Water,Aquafina,4.42,2.63,448,SUP_BEV_03,24,0
+PRD_0046,Beverages,Water,Bottled Water,Fiji,4.48,2.78,453,SUP_BEV_03,24,0
+PRD_0047,Beverages,Water,Bottled Water,Fiji,4.49,2.55,433,SUP_BEV_03,12,0
+PRD_0048,Beverages,Water,Bottled Water,Aquafina,5.13,2.94,677,SUP_BEV_03,24,0
+PRD_0049,Beverages,Water,Bottled Water,Fiji,5.97,3.42,706,SUP_BEV_03,24,0
+PRD_0050,Beverages,Water,Bottled Water,Fiji,4.71,3.29,402,SUP_BEV_03,32,0
+PRD_0051,Beverages,water,Bottled Water,Great Value,2.0,1.35,565,SUP_BEV_03,24,0
+PRD_0052,Beverages,Water,Bottled Water,Aquafina,4.91,3.27,624,SUP_BEV_03,12,0
+PRD_0053,Beverages,Water,Bottled Water,Dasani,3.44,2.02,602,SUP_BEV_03,32,0
+PRD_0054,Beverages,Water,Bottled Water,Aquafina,4.94,3.04,399,SUP_BEV_03,32,0
+PRD_0055,Beverages,Water,Bottled Water,Dasani,3.17,2.1,720,SUP_BEV_03,12,0
+PRD_0056,Beverages,Juice,Refrigerated Juice,Minute Maid,5.71,4.14,40,SUP_BEV_04,12,1
+PRD_0057,Beverages,Juice,Refrigerated Juice,Tropicana,4.92,3.65,25,SUP_BEV_04,6,1
+PRD_0058,Beverages,Juice,Refrigerated Juice,Minute Maid,4.91,3.48,22,SUP_BEV_04,12,1
+PRD_0059,Beverages,Juice,Refrigerated Juice,Simply Orange,5.86,4.04,29,SUP_BEV_04,6,1
+PRD_0060,Beverages,Juice,Refrigerated Juice,Tropicana,5.8,4.34,44,SUP_BEV_04,6,1
+PRD_0061,Beverages,Juice,Refrigerated Juice,Tropicana,3.67,2.8,25,SUP_BEV_04,6,1
+PRD_0062,Beverages,Juice,Refrigerated Juice,Minute Maid,3.9,2.86,43,SUP_BEV_04,12,1
+PRD_0063,Beverages,Juice,Refrigerated Juice,Minute Maid,4.91,3.87,35,SUP_BEV_04,12,1
+PRD_0064,Beverages,Juice,Refrigerated Juice,Minute Maid,3.83,2.83,42,SUP_BEV_04,6,1
+PRD_0065,Beverages,Juice,Refrigerated Juice,Tropicana,3.82,2.73,34,SUP_BEV_04,12,1
+PRD_0066,Beverages,Juice,Refrigerated Juice,Minute Maid,4.53,3.48,35,SUP_BEV_04,12,1
+PRD_0067,Beverages,Coffee & Tea,Ground Coffee,Starbucks,7.02,4.82,215,SUP_BEV_05,12,0
+PRD_0068,Beverages,Coffee & Tea,Ground Coffee,Starbucks,13.35,8.82,242,SUP_BEV_05,12,0
+PRD_0069,Beverages,Coffee & Tea,Ground Coffee,Starbucks,7.73,5.35,186,SUP_BEV_05,6,0
+PRD_0070,Beverages,Coffee & Tea,Ground Coffee,Starbucks,11.32,8.17,289,SUP_BEV_05,12,0
+PRD_0071,Beverages,Coffee & Tea,Ground Coffee,Folgers,7.28,4.86,246,SUP_BEV_05,12,0
+PRD_0072,Beverages,Coffee & Tea,Ground Coffee,Folgers,11.16,7.51,219,SUP_BEV_05,6,0
+PRD_0073,Beverages,Coffee & Tea,Ground Coffee,Great Value,7.66,5.71,278,SUP_BEV_05,6,0
+PRD_0074,Beverages,Coffee & Tea,Ground Coffee,Great Value,12.08,8.18,360,SUP_BEV_05,12,0
+PRD_0075,Beverages,Coffee & Tea,Ground Coffee,Starbucks,9.56,6.41,230,SUP_BEV_05,12,0
+PRD_0076,Beverages,Coffee & Tea,Ground Coffee,Starbucks,7.61,5.69,358,SUP_BEV_05,6,0
+PRD_0077,Beverages,Coffee & Tea,Ground Coffee,Great Value,12.55,8.9,212,SUP_BEV_05,6,0
+PRD_0078,Snacks,Salty Snacks,Potato Chips,Pringles,3.06,1.94,154,SUP_SNA_06,24,0
+PRD_0079,Snacks,Salty Snacks,Potato Chips,Lay's,3.12,1.83,156,SUP_SNA_06,12,0
+PRD_0080,Snacks,Salty Snacks,Potato Chips,Lay's,3.89,2.53,112,SUP_SNA_06,24,0
+PRD_0081,Snacks,Salty Snacks,Potato Chips,Pringles,4.22,2.95,100,SUP_SNA_06,12,0
+PRD_0082,Snacks,Salty Snacks,Potato Chips,Pringles,2.57,1.54,153,SUP_SNA_06,24,0
+PRD_0083,Snacks,Salty Snacks,Potato Chips,Great Value,2.71,1.74,132,SUP_SNA_06,12,0
+PRD_0084,Snacks,Salty Snacks,Potato Chips,Ruffles,3.48,2.27,145,SUP_SNA_06,12,0
+PRD_0085,Snacks,Salty Snacks,Potato Chips,Great Value,2.58,1.69,146,SUP_SNA_06,24,0
+PRD_0086,Snacks,Salty Snacks,Potato Chips,Great Value,4.45,2.76,104,SUP_SNA_06,24,0
+PRD_0087,Snacks,Salty Snacks,Potato Chips,Great Value,3.96,2.76,142,SUP_SNA_06,12,0
+PRD_0088,Snacks,Salty Snacks,Potato Chips,Great Value,3.8,2.48,147,SUP_SNA_06,12,0
+PRD_0089,Snacks,Salty Snacks,Tortilla & Pretzels,Doritos,4.23,2.57,124,SUP_SNA_06,12,0
+PRD_0090,Snacks,Salty Snacks,Tortilla & Pretzels,Tostitos,3.46,2.38,109,SUP_SNA_06,24,0
+PRD_0091,Snacks,Salty Snacks,Tortilla & Pretzels,Tostitos,3.07,1.98,120,SUP_SNA_06,24,0
+PRD_0092,Snacks,Salty Snacks,Tortilla & Pretzels,Doritos,4.92,3.53,163,SUP_SNA_06,12,0
+PRD_0093,Snacks,Salty Snacks,Tortilla & Pretzels,Snyder's,3.25,2.07,146,SUP_SNA_06,12,0
+PRD_0094,Snacks,Salty Snacks,Tortilla & Pretzels,Doritos,4.83,3.31,105,SUP_SNA_06,12,0
+PRD_0095,Snacks,Salty Snacks,Tortilla & Pretzels,Snyder's,5.26,3.53,123,SUP_SNA_06,12,0
+PRD_0096,Snacks,Salty Snacks,Tortilla & Pretzels,Snyder's,5.12,3.16,128,SUP_SNA_06,12,0
+PRD_0097,Snacks,Salty Snacks,Tortilla & Pretzels,Snyder's,4.72,3.34,171,SUP_SNA_06,24,0
+PRD_0098,Snacks,Salty Snacks,Tortilla & Pretzels,Doritos,3.72,2.28,125,SUP_SNA_06,24,0
+PRD_0099,Snacks,Salty Snacks,Tortilla & Pretzels,Doritos,5.06,3.59,118,SUP_SNA_06,24,0
+PRD_0100,Snacks,Sweet Snacks,Cookies & Biscuits,Great Value,4.88,3.23,195,SUP_SNA_07,12,0
+PRD_0101,Snacks,Sweet Snacks,Cookies & Biscuits,Oreo,3.5,2.4,200,SUP_SNA_07,24,0
+PRD_0102,Snacks,Sweet Snacks,Cookies & Biscuits,Oreo,4.54,2.91,130,SUP_SNA_07,24,0
+PRD_0103,Snacks,Sweet Snacks,Cookies & Biscuits,Chips Ahoy!,3.0,2.0,172,SUP_SNA_07,12,0
+PRD_0104,Snacks,Sweet Snacks,Cookies & Biscuits,Oreo,3.62,2.56,137,SUP_SNA_07,24,0
+PRD_0105,Snacks,Sweet Snacks,Cookies & Biscuits,Chips Ahoy!,4.18,2.97,130,SUP_SNA_07,12,0
+PRD_0106,Snacks,Sweet Snacks,Cookies & Biscuits,Chips Ahoy!,3.71,2.34,137,SUP_SNA_07,12,0
+PRD_0107,Snacks,Sweet Snacks,Cookies & Biscuits,Oreo,3.37,2.23,223,SUP_SNA_07,24,0
+PRD_0108,Snacks,Sweet Snacks,Cookies & Biscuits,Oreo,4.87,3.03,210,SUP_SNA_07,24,0
+PRD_0109,Snacks,Sweet Snacks,Cookies & Biscuits,Great Value,3.89,2.65,204,SUP_SNA_07,24,0
+PRD_0110,Snacks,Sweet Snacks,Cookies & Biscuits,Chips Ahoy!,3.57,2.42,150,SUP_SNA_07,24,0
+PRD_0111,Snacks,Healthy Snacks,Nuts & Dried Fruit,Great Value,5.37,3.96,201,SUP_SNA_08,12,0
+PRD_0112,Snacks,Healthy Snacks,Nuts & Dried Fruit,Wonderful,10.2,7.05,358,SUP_SNA_08,12,0
+PRD_0113,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,5.56,3.88,260,SUP_SNA_08,24,0
+PRD_0114,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,11.77,8.78,344,SUP_SNA_08,24,0
+PRD_0115,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,11.93,8.86,282,SUP_SNA_08,24,0
+PRD_0116,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,8.64,5.94,308,SUP_SNA_08,12,0
+PRD_0117,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,9.37,6.48,346,SUP_SNA_08,12,0
+PRD_0118,Snacks,Healthy Snacks,Nuts & Dried Fruit,Wonderful,6.95,4.55,344,SUP_SNA_08,24,0
+PRD_0119,Snacks,Healthy Snacks,Nuts & Dried Fruit,Planters,6.92,5.06,265,SUP_SNA_08,24,0
+PRD_0120,Snacks,Healthy Snacks,Nuts & Dried Fruit,Great Value,6.84,4.88,228,SUP_SNA_08,12,0
+PRD_0121,Grocery,Pantry Staples,Pasta & Noodles,Great Value,1.25,0.93,515,SUP_GRO_09,12,0
+PRD_0122,Grocery,Pantry Staples,Pasta & Noodles,Barilla,1.49,1.15,708,SUP_GRO_09,12,0
+PRD_0123,Grocery,Pantry Staples,Pasta & Noodles,Barilla,2.59,1.88,705,SUP_GRO_09,24,0
+PRD_0124,Grocery,Pantry Staples,Pasta & Noodles,Kraft Mac,1.28,0.99,502,SUP_GRO_09,12,0
+PRD_0125,Grocery,Pantry Staples,Pasta & Noodles,Great Value,3.45,2.62,581,SUP_GRO_09,12,0
+PRD_0126,Grocery,Pantry Staples,Pasta & Noodles,Barilla,3.41,2.29,670,SUP_GRO_09,24,0
+PRD_0127,Grocery,Pantry Staples,Pasta & Noodles,Barilla,2.13,1.59,385,SUP_GRO_09,24,0
+PRD_0128,Grocery,Pantry Staples,Pasta & Noodles,Barilla,2.41,1.64,698,SUP_GRO_09,12,0
+PRD_0129,Grocery,Pantry Staples,Pasta & Noodles,Barilla,2.85,1.94,502,SUP_GRO_09,12,0
+PRD_0130,Grocery,Pantry Staples,Pasta & Noodles,Great Value,1.65,1.23,465,SUP_GRO_09,24,0
+PRD_0131,Grocery,Pantry Staples,Rice & Grains,Great Value,8.19,5.93,382,SUP_GRO_09,6,0
+PRD_0132,Grocery,Pantry Staples,Rice & Grains,Uncle Ben's,6.85,5.12,646,SUP_GRO_09,6,0
+PRD_0133,Grocery,Pantry Staples,Rice & Grains,Great Value,8.02,5.97,569,SUP_GRO_09,12,0
+PRD_0134,Grocery,Pantry Staples,Rice & Grains,Uncle Ben's,5.1,4.01,375,SUP_GRO_09,6,0
+PRD_0135,Grocery,Pantry Staples,Rice & Grains,Mahatma,6.51,4.75,442,SUP_GRO_09,12,0
+PRD_0136,Grocery,Pantry Staples,Rice & Grains,Great Value,4.76,3.53,508,SUP_GRO_09,6,0
+PRD_0137,Grocery,Pantry Staples,Rice & Grains,Uncle Ben's,8.36,6.4,552,SUP_GRO_09,12,0
+PRD_0138,Grocery,Pantry Staples,Rice & Grains,Uncle Ben's,5.06,3.73,679,SUP_GRO_09,6,0
+PRD_0139,Grocery,Pantry Staples,Rice & Grains,Mahatma,3.44,2.43,544,SUP_GRO_09,12,0
+PRD_0140,Grocery,Pantry Staples,Rice & Grains,Mahatma,8.85,6.64,484,SUP_GRO_09,6,0
+PRD_0141,Grocery,Canned Goods,Canned Vegetables & Soup,Great Value,1.76,1.3,459,SUP_GRO_10,12,0
+PRD_0142,Grocery,Canned Goods,Canned Vegetables & Soup,Great Value,2.08,1.37,496,SUP_GRO_10,24,0
+PRD_0143,Grocery,Canned Goods,Canned Vegetables & Soup,Campbell's,3.07,2.11,852,SUP_GRO_10,24,0
+PRD_0144,Grocery,Canned Goods,Canned Vegetables & Soup,Campbell's,1.66,1.24,488,SUP_GRO_10,24,0
+PRD_0145,Grocery,Canned Goods,Canned Vegetables & Soup,Green Giant,1.63,1.2,453,SUP_GRO_10,12,0
+PRD_0146,Grocery,Canned Goods,Canned Vegetables & Soup,Green Giant,3.07,2.25,605,SUP_GRO_10,12,0
+PRD_0147,Grocery,Canned Goods,Canned Vegetables & Soup,Campbell's,1.46,1.0,867,SUP_GRO_10,24,0
+PRD_0148,Grocery,Canned Goods,Canned Vegetables & Soup,Green Giant,1.59,1.11,366,SUP_GRO_10,24,0
+PRD_0149,Grocery,Canned Goods,Canned Vegetables & Soup,Campbell's,1.45,0.97,1084,SUP_GRO_10,12,0
+PRD_0150,Grocery,Canned Goods,Canned Vegetables & Soup,Great Value,3.13,2.25,919,SUP_GRO_10,24,0
+PRD_0151,Grocery,Cooking & Baking,Cooking Oils,Bertolli,10.1,8.22,418,SUP_GRO_11,6,0
+PRD_0152,Grocery,Cooking & Baking,Cooking Oils,Wesson,9.82,7.22,638,SUP_GRO_11,12,0
+PRD_0153,Grocery,Cooking & Baking,Cooking Oils,Crisco,11.35,8.91,509,SUP_GRO_11,12,0
+PRD_0154,Grocery,Cooking & Baking,Cooking Oils,Crisco,10.25,8.22,570,SUP_GRO_11,6,0
+PRD_0155,Grocery,Cooking & Baking,Cooking Oils,Wesson,4.74,3.63,450,SUP_GRO_11,6,0
+PRD_0156,Grocery,cooking & baking,Cooking Oils,Bertolli,8.01,6.28,601,SUP_GRO_11,12,0
+PRD_0157,Grocery,Cooking & Baking,Cooking Oils,Wesson,8.95,6.68,568,SUP_GRO_11,12,0
+PRD_0158,Grocery,Cooking & Baking,Cooking Oils,Crisco,8.78,6.87,488,SUP_GRO_11,12,0
+PRD_0159,Grocery,Cooking & Baking,Cooking Oils,Great Value,9.14,7.27,546,SUP_GRO_11,12,0
+PRD_0160,Grocery,Cooking & Baking,Cooking Oils,Crisco,11.92,9.77,447,SUP_GRO_11,12,0
+PRD_0161,Frozen,Frozen Meals,Pizza & Entrees,Hot Pockets,6.18,4.19,196,SUP_FRO_12,16,1
+PRD_0162,Frozen,FROZEN MEALS,Pizza & Entrees,Hot Pockets,4.23,2.87,189,SUP_FRO_12,8,1
+PRD_0163,Frozen,Frozen Meals,Pizza & Entrees,DiGiorno,8.4,6.44,253,SUP_FRO_12,16,1
+PRD_0164,Frozen,Frozen Meals,Pizza & Entrees,Hot Pockets,7.87,5.37,227,SUP_FRO_12,16,1
+PRD_0165,Frozen,Frozen Meals,Pizza & Entrees,Stouffer's,6.99,4.67,283,SUP_FRO_12,16,1
+PRD_0166,Frozen,Frozen Meals,Pizza & Entrees,Stouffer's,5.24,3.6,214,SUP_FRO_12,16,1
+PRD_0167,Frozen,Frozen Meals,Pizza & Entrees,Hot Pockets,4.88,3.38,278,SUP_FRO_12,8,1
+PRD_0168,Frozen,Frozen Meals,Pizza & Entrees,Stouffer's,7.44,5.73,273,SUP_FRO_12,8,1
+PRD_0169,Frozen,Frozen Meals,Pizza & Entrees,DiGiorno,6.38,4.94,242,SUP_FRO_12,16,1
+PRD_0170,Frozen,Frozen Meals,Pizza & Entrees,DiGiorno,4.27,2.82,239,SUP_FRO_12,16,1
+PRD_0171,Frozen,Ice Cream,Tubs & Bars,Ben & Jerry's,3.9,2.92,201,SUP_FRO_13,8,1
+PRD_0172,Frozen,Ice Cream,Tubs & Bars,Breyers,4.72,3.38,351,SUP_FRO_13,12,1
+PRD_0173,Frozen,Ice Cream,Tubs & Bars,Breyers,3.85,2.61,353,SUP_FRO_13,12,1
+PRD_0174,Frozen,Ice Cream,Tubs & Bars,Great Value,3.68,2.49,286,SUP_FRO_13,12,1
+PRD_0175,Frozen,Ice Cream,Tubs & Bars,Ben & Jerry's,3.9,2.61,217,SUP_FRO_13,12,1
+PRD_0176,Frozen,Ice Cream,Tubs & Bars,Great Value,3.97,2.65,303,SUP_FRO_13,12,1
+PRD_0177,Frozen,Ice Cream,Tubs & Bars,Breyers,4.56,3.02,252,SUP_FRO_13,12,1
+PRD_0178,Frozen,Ice Cream,Tubs & Bars,Great Value,5.62,3.71,295,SUP_FRO_13,8,1
+PRD_0179,Frozen,Ice Cream,Tubs & Bars,Great Value,4.8,3.32,245,SUP_FRO_13,8,1
+PRD_0180,Frozen,Ice Cream,Tubs & Bars,Great Value,5.08,3.78,222,SUP_FRO_13,8,1
+PRD_0181,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,2.92,2.22,339,SUP_FRO_14,24,1
+PRD_0182,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Great Value,2.28,1.58,317,SUP_FRO_14,24,1
+PRD_0183,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,3.26,2.22,341,SUP_FRO_14,12,1
+PRD_0184,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,3.75,2.94,289,SUP_FRO_14,24,1
+PRD_0185,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Great Value,3.07,2.18,279,SUP_FRO_14,12,1
+PRD_0186,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,2.79,2.08,327,SUP_FRO_14,12,1
+PRD_0187,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,3.18,2.36,308,SUP_FRO_14,12,1
+PRD_0188,Frozen,FROZEN PRODUCE,Frozen Vegetables & Fruit,Great Value,1.91,1.39,323,SUP_FRO_14,24,1
+PRD_0189,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Birds Eye,3.32,2.33,361,SUP_FRO_14,24,1
+PRD_0190,Frozen,Frozen Produce,Frozen Vegetables & Fruit,Great Value,2.43,1.82,297,SUP_FRO_14,12,1
+PRD_0191,Household,Cleaning Supplies,Disinfectants & Sprays,Clorox,6.04,3.77,953,SUP_HOU_15,6,0
+PRD_0192,Household,Cleaning Supplies,Disinfectants & Sprays,Great Value,7.66,4.71,984,SUP_HOU_15,12,0
+PRD_0193,Household,Cleaning Supplies,Disinfectants & Sprays,Lysol,6.6,4.47,940,SUP_HOU_15,12,0
+PRD_0194,Household,Cleaning Supplies,Disinfectants & Sprays,Lysol,5.27,3.11,1071,SUP_HOU_15,12,0
+PRD_0195,Household,Cleaning Supplies,Disinfectants & Sprays,Great Value,5.4,3.69,1089,SUP_HOU_15,12,0
+PRD_0196,Household,Cleaning Supplies,Disinfectants & Sprays,Clorox,7.22,4.69,843,SUP_HOU_15,6,0
+PRD_0197,Household,Cleaning Supplies,Disinfectants & Sprays,Great Value,5.16,3.57,852,SUP_HOU_15,12,0
+PRD_0198,Household,Cleaning Supplies,Disinfectants & Sprays,Lysol,3.3,2.14,875,SUP_HOU_15,6,0
+PRD_0199,Household,Cleaning Supplies,Disinfectants & Sprays,Clorox,7.6,4.93,856,SUP_HOU_15,12,0
+PRD_0200,Household,Cleaning Supplies,Disinfectants & Sprays,Great Value,5.41,3.6,895,SUP_HOU_15,6,0
+PRD_0201,Household,Paper Goods,Paper Towels & Tissue,Charmin,8.86,6.2,1400,SUP_HOU_16,4,0
+PRD_0202,Household,Paper Goods,Paper Towels & Tissue,Bounty,17.02,12.29,1255,SUP_HOU_16,8,0
+PRD_0203,Household,Paper Goods,Paper Towels & Tissue,Bounty,13.43,8.76,1430,SUP_HOU_16,8,0
+PRD_0204,Household,Paper Goods,Paper Towels & Tissue,Charmin,7.63,4.96,1461,SUP_HOU_16,4,0
+PRD_0205,Household,Paper Goods,Paper Towels & Tissue,Great Value,7.39,4.99,1248,SUP_HOU_16,12,0
+PRD_0206,Household,Paper Goods,Paper Towels & Tissue,Charmin,9.25,6.76,1121,SUP_HOU_16,8,0
+PRD_0207,Household,Paper Goods,Paper Towels & Tissue,Great Value,14.11,10.49,1661,SUP_HOU_16,12,0
+PRD_0208,Household,Paper Goods,Paper Towels & Tissue,Charmin,13.56,9.57,1387,SUP_HOU_16,8,0
+PRD_0209,Household,Paper Goods,Paper Towels & Tissue,Scott,8.58,6.28,1724,SUP_HOU_16,12,0
+PRD_0210,Household,Paper Goods,Paper Towels & Tissue,Scott,11.52,8.33,1565,SUP_HOU_16,4,0
+PRD_0211,Household,Laundry,Detergent & Softener,all,18.75,12.02,1046,SUP_HOU_17,8,0
+PRD_0212,Household,Laundry,Detergent & Softener,Tide,14.05,10.07,801,SUP_HOU_17,4,0
+PRD_0213,Household,Laundry,Detergent & Softener,Tide,14.53,10.26,937,SUP_HOU_17,4,0
+PRD_0214,Household,Laundry,Detergent & Softener,Tide,14.1,9.25,1023,SUP_HOU_17,8,0
+PRD_0215,Household,Laundry,Detergent & Softener,Gain,14.62,9.43,1081,SUP_HOU_17,8,0
+PRD_0216,Household,Laundry,Detergent & Softener,Tide,9.53,6.64,848,SUP_HOU_17,8,0
+PRD_0217,Household,Laundry,Detergent & Softener,all,14.95,9.78,1039,SUP_HOU_17,8,0
+PRD_0218,Household,Laundry,Detergent & Softener,Tide,17.62,11.74,986,SUP_HOU_17,4,0
+PRD_0219,Household,Laundry,Detergent & Softener,all,14.85,10.49,1031,SUP_HOU_17,4,0
+PRD_0220,Household,Laundry,Detergent & Softener,all,8.36,5.37,855,SUP_HOU_17,8,0
+PRD_0221,Personal Care,Hair Care,Shampoo & Conditioner,Pantene,6.48,3.49,810,SUP_PER_18,12,0
+PRD_0222,Personal Care,Hair Care,Shampoo & Conditioner,Pantene,8.77,5.57,936,SUP_PER_18,6,0
+PRD_0223,Personal Care,Hair Care,Shampoo & Conditioner,Pantene,7.07,4.43,906,SUP_PER_18,6,0
+PRD_0224,Personal Care,Hair Care,Shampoo & Conditioner,Pantene,8.56,4.79,876,SUP_PER_18,6,0
+PRD_0225,Personal Care,Hair Care,Shampoo & Conditioner,Pantene,8.03,4.78,778,SUP_PER_18,6,0
+PRD_0226,Personal Care,Hair Care,Shampoo & Conditioner,Head & Shoulders,8.28,4.65,1030,SUP_PER_18,12,0
+PRD_0227,Personal Care,Hair Care,Shampoo & Conditioner,Head & Shoulders,8.96,5.24,754,SUP_PER_18,6,0
+PRD_0228,Personal Care,Hair Care,Shampoo & Conditioner,Head & Shoulders,7.22,4.02,768,SUP_PER_18,12,0
+PRD_0229,Personal Care,Hair Care,Shampoo & Conditioner,Head & Shoulders,5.93,3.65,997,SUP_PER_18,12,0
+PRD_0230,Personal Care,Hair Care,Shampoo & Conditioner,Head & Shoulders,8.14,5.11,1063,SUP_PER_18,12,0
+PRD_0231,Personal Care,Body Care,Body Wash & Soap,Dove,5.2,2.98,747,SUP_PER_19,12,0
+PRD_0232,Personal Care,Body Care,Body Wash & Soap,Irish Spring,6.8,4.34,950,SUP_PER_19,12,0
+PRD_0233,Personal Care,Body Care,Body Wash & Soap,Dove,5.23,3.17,859,SUP_PER_19,6,0
+PRD_0234,Personal Care,Body Care,Body Wash & Soap,Dial,4.82,2.72,903,SUP_PER_19,6,0
+PRD_0235,Personal Care,Body Care,Body Wash & Soap,Equate,7.7,4.16,808,SUP_PER_19,12,0
+PRD_0236,Personal Care,Body Care,Body Wash & Soap,Dial,4.66,2.61,748,SUP_PER_19,12,0
+PRD_0237,Personal Care,Body Care,Body Wash & Soap,Dial,6.17,3.7,1011,SUP_PER_19,6,0
+PRD_0238,Personal Care,Body Care,Body Wash & Soap,Dove,3.82,2.07,910,SUP_PER_19,6,0
+PRD_0239,Personal Care,Body Care,Body Wash & Soap,Equate,5.44,3.33,1028,SUP_PER_19,6,0
+PRD_0240,Personal Care,Body Care,Body Wash & Soap,Equate,6.61,4.03,945,SUP_PER_19,6,0
+PRD_0241,Personal Care,Oral Care,Toothpaste & Brushes,Colgate,3.3,1.75,779,SUP_PER_20,24,0
+PRD_0242,Personal Care,Oral Care,Toothpaste & Brushes,Colgate,4.54,2.84,927,SUP_PER_20,24,0
+PRD_0243,Personal Care,Oral Care,Toothpaste & Brushes,Oral-B,5.54,3.02,970,SUP_PER_20,24,0
+PRD_0244,Personal Care,Oral Care,Toothpaste & Brushes,Equate,5.95,3.67,908,SUP_PER_20,12,0
+PRD_0245,Personal Care,Oral Care,Toothpaste & Brushes,Oral-B,6.44,3.4,744,SUP_PER_20,24,0
+PRD_0246,Personal Care,Oral Care,Toothpaste & Brushes,Equate,6.22,3.9,937,SUP_PER_20,24,0
+PRD_0247,Personal Care,Oral Care,Toothpaste & Brushes,Oral-B,3.1,1.73,838,SUP_PER_20,24,0
+PRD_0248,Personal Care,Oral Care,Toothpaste & Brushes,Equate,6.38,3.36,903,SUP_PER_20,24,0
+PRD_0249,Personal Care,Oral Care,Toothpaste & Brushes,Equate,5.94,3.61,1032,SUP_PER_20,12,0
+PRD_0250,Personal Care,Oral Care,Toothpaste & Brushes,Crest,5.07,3.14,774,SUP_PER_20,24,0
+PRD_0251,Health & Wellness,OTC Medicine,Pain Relief & Cold,Equate,11.59,6.86,994,SUP_HEA_21,24,0
+PRD_0252,Health & Wellness,OTC Medicine,Pain Relief & Cold,Equate,7.98,4.46,1018,SUP_HEA_21,12,0
+PRD_0253,Health & Wellness,OTC Medicine,Pain Relief & Cold,Tylenol,10.93,5.46,954,SUP_HEA_21,24,0
+PRD_0254,Health & Wellness,OTC Medicine,Pain Relief & Cold,Advil,5.21,2.62,737,SUP_HEA_21,12,0
+PRD_0255,Health & Wellness,OTC Medicine,Pain Relief & Cold,Tylenol,10.0,4.9,1021,SUP_HEA_21,12,0
+PRD_0256,Health & Wellness,OTC Medicine,Pain Relief & Cold,Advil,8.31,4.32,876,SUP_HEA_21,12,0
+PRD_0257,Health & Wellness,OTC Medicine,Pain Relief & Cold,DayQuil,10.94,5.49,1089,SUP_HEA_21,24,0
+PRD_0258,Health & Wellness,OTC Medicine,Pain Relief & Cold,Advil,8.95,5.18,999,SUP_HEA_21,24,0
+PRD_0259,Health & Wellness,OTC Medicine,Pain Relief & Cold,Tylenol,6.03,3.56,834,SUP_HEA_21,24,0
+PRD_0260,Health & Wellness,OTC Medicine,Pain Relief & Cold,Advil,7.2,4.63,736,SUP_HEA_21,24,0
+PRD_0261,Health & Wellness,Vitamins,Daily Supplements,Equate,12.47,6.76,978,SUP_HEA_22,24,0
+PRD_0262,Health & Wellness,Vitamins,Daily Supplements,Equate,17.95,8.65,762,SUP_HEA_22,24,0
+PRD_0263,Health & Wellness,Vitamins,Daily Supplements,Equate,17.21,7.89,900,SUP_HEA_22,12,0
+PRD_0264,Health & Wellness,Vitamins,Daily Supplements,One A Day,9.73,4.39,814,SUP_HEA_22,24,0
+PRD_0265,Health & Wellness,Vitamins,Daily Supplements,Nature Made,14.8,7.53,917,SUP_HEA_22,24,0
+PRD_0266,Health & Wellness,Vitamins,Daily Supplements,Equate,9.83,5.57,798,SUP_HEA_22,12,0
+PRD_0267,Health & Wellness,Vitamins,Daily Supplements,One A Day,16.39,8.29,808,SUP_HEA_22,12,0
+PRD_0268,Health & Wellness,Vitamins,Daily Supplements,Equate,14.25,7.43,824,SUP_HEA_22,12,0
+PRD_0269,Health & Wellness,Vitamins,Daily Supplements,One A Day,13.14,5.92,1057,SUP_HEA_22,12,0
+PRD_0270,Health & Wellness,Vitamins,Daily Supplements,One A Day,14.52,7.08,742,SUP_HEA_22,24,0
+PRD_0271,Beauty,Skin Care,Moisturizers & Lotions,CeraVe,18.16,10.1,872,SUP_BEA_23,6,0
+PRD_0272,Beauty,Skin Care,Moisturizers & Lotions,Equate,13.18,8.09,1041,SUP_BEA_23,12,0
+PRD_0273,Beauty,Skin Care,Moisturizers & Lotions,Neutrogena,11.26,5.51,998,SUP_BEA_23,12,0
+PRD_0274,Beauty,Skin Care,Moisturizers & Lotions,Equate,10.26,6.35,983,SUP_BEA_23,12,0
+PRD_0275,Beauty,Skin Care,Moisturizers & Lotions,CeraVe,13.9,6.75,769,SUP_BEA_23,12,0
+PRD_0276,Beauty,Skin Care,Moisturizers & Lotions,Neutrogena,19.87,12.15,1052,SUP_BEA_23,12,0
+PRD_0277,Beauty,Skin Care,Moisturizers & Lotions,Neutrogena,18.76,10.13,971,SUP_BEA_23,12,0
+PRD_0278,Beauty,Skin Care,Moisturizers & Lotions,Olay,18.22,9.42,920,SUP_BEA_23,12,0
+PRD_0279,Beauty,Skin Care,Moisturizers & Lotions,Equate,10.17,6.08,788,SUP_BEA_23,6,0
+PRD_0280,Beauty,Skin Care,Moisturizers & Lotions,Olay,10.08,4.94,768,SUP_BEA_23,6,0
+PRD_0281,Beauty,Cosmetics,Lip & Eye Care,L'Oreal,6.9,3.23,1080,SUP_BEA_24,12,0
+PRD_0282,Beauty,Cosmetics,Lip & Eye Care,CoverGirl,12.07,7.23,1029,SUP_BEA_24,12,0
+PRD_0283,Beauty,Cosmetics,Lip & Eye Care,L'Oreal,12.3,7.38,933,SUP_BEA_24,12,0
+PRD_0284,Beauty,Cosmetics,Lip & Eye Care,Maybelline,7.42,4.24,760,SUP_BEA_24,12,0
+PRD_0285,Beauty,Cosmetics,Lip & Eye Care,Maybelline,9.68,5.64,867,SUP_BEA_24,24,0
+PRD_0286,Beauty,Cosmetics,Lip & Eye Care,Maybelline,11.33,6.62,1007,SUP_BEA_24,24,0
+PRD_0287,Beauty,Cosmetics,Lip & Eye Care,Maybelline,12.7,6.97,960,SUP_BEA_24,24,0
+PRD_0288,Beauty,Cosmetics,Lip & Eye Care,Maybelline,6.25,2.87,981,SUP_BEA_24,24,0
+PRD_0289,Beauty,Cosmetics,Lip & Eye Care,CoverGirl,6.73,3.26,988,SUP_BEA_24,24,0
+PRD_0290,Beauty,Cosmetics,Lip & Eye Care,Maybelline,5.91,3.48,1041,SUP_BEA_24,24,0
+PRD_0291,Pet Supplies,Dog Food,Dry & Wet Dog Food,Blue Buffalo,28.36,19.99,204,SUP_PET_25,4,0
+PRD_0292,Pet Supplies,Dog Food,Dry & Wet Dog Food,Blue Buffalo,10.29,7.18,248,SUP_PET_25,8,0
+PRD_0293,Pet Supplies,Dog Food,Dry & Wet Dog Food,Blue Buffalo,14.03,10.94,209,SUP_PET_25,8,0
+PRD_0294,Pet Supplies,Dog Food,Dry & Wet Dog Food,Purina,27.87,21.45,338,SUP_PET_25,4,0
+PRD_0295,Pet Supplies,Dog Food,Dry & Wet Dog Food,Blue Buffalo,25.5,19.13,335,SUP_PET_25,4,0
+PRD_0296,Pet Supplies,Dog Food,Dry & Wet Dog Food,Pedigree,13.58,10.41,340,SUP_PET_25,8,0
+PRD_0297,Pet Supplies,Dog Food,Dry & Wet Dog Food,Purina,27.85,20.55,298,SUP_PET_25,8,0
+PRD_0298,Pet Supplies,Dog Food,Dry & Wet Dog Food,Blue Buffalo,14.46,9.86,255,SUP_PET_25,8,0
+PRD_0299,Pet Supplies,Dog Food,Dry & Wet Dog Food,Pedigree,13.58,10.3,185,SUP_PET_25,4,0
+PRD_0300,Pet Supplies,Dog Food,Dry & Wet Dog Food,Pedigree,26.27,19.25,359,SUP_PET_25,8,0
+PRD_0301,Pet Supplies,Cat Care,Cat Litter & Food,Tidy Cats,16.9,11.36,646,SUP_PET_26,6,0
+PRD_0302,Pet Supplies,Cat Care,Cat Litter & Food,Friskies,15.61,10.73,412,SUP_PET_26,4,0
+PRD_0303,Pet Supplies,Cat Care,Cat Litter & Food,Friskies,13.88,9.3,540,SUP_PET_26,6,0
+PRD_0304,Pet Supplies,Cat Care,Cat Litter & Food,Meow Mix,7.98,5.44,522,SUP_PET_26,6,0
+PRD_0305,Pet Supplies,Cat Care,Cat Litter & Food,Tidy Cats,8.41,5.76,483,SUP_PET_26,6,0
+PRD_0306,Pet Supplies,Cat Care,Cat Litter & Food,Meow Mix,18.29,13.44,534,SUP_PET_26,6,0
+PRD_0307,Pet Supplies,Cat Care,Cat Litter & Food,Friskies,12.24,8.45,471,SUP_PET_26,4,0
+PRD_0308,Pet Supplies,Cat Care,Cat Litter & Food,Tidy Cats,16.8,11.29,379,SUP_PET_26,6,0
+PRD_0309,Pet Supplies,Cat Care,Cat Litter & Food,Meow Mix,7.74,5.62,725,SUP_PET_26,6,0
+PRD_0310,Pet Supplies,Cat Care,Cat Litter & Food,Meow Mix,12.47,8.58,621,SUP_PET_26,6,0
+PRD_0311,Home,Kitchenware,Cookware & Storage,Pyrex,12.18,6.97,1985,SUP_HOM_27,4,0
+PRD_0312,Home,Kitchenware,Cookware & Storage,Pyrex,6.61,4.22,2549,SUP_HOM_27,8,0
+PRD_0313,Home,Kitchenware,Cookware & Storage,Pyrex,16.76,9.16,3286,SUP_HOM_27,8,0
+PRD_0314,Home,Kitchenware,Cookware & Storage,Pyrex,9.16,5.81,2986,SUP_HOM_27,4,0
+PRD_0315,Home,Kitchenware,Cookware & Storage,Rubbermaid,6.58,3.35,1919,SUP_HOM_27,8,0
+PRD_0316,Home,Kitchenware,Cookware & Storage,Mainstays,19.45,10.1,3128,SUP_HOM_27,8,0
+PRD_0317,Home,Kitchenware,Cookware & Storage,Pyrex,17.61,10.17,3030,SUP_HOM_27,8,0
+PRD_0318,Home,Kitchenware,Cookware & Storage,Pyrex,21.51,12.52,2999,SUP_HOM_27,4,0
+PRD_0319,Home,Kitchenware,Cookware & Storage,Pyrex,14.31,7.75,2907,SUP_HOM_27,8,0
+PRD_0320,Home,Kitchenware,Cookware & Storage,Mainstays,15.09,8.41,2425,SUP_HOM_27,8,0
+PRD_0321,Apparel,Basics,Socks & Underwear,Hanes,9.62,5.27,3027,SUP_APP_28,6,0
+PRD_0322,Apparel,Basics,Socks & Underwear,Fruit of the Loom,8.17,4.62,2431,SUP_APP_28,12,0
+PRD_0323,Apparel,Basics,Socks & Underwear,Hanes,12.42,7.94,2560,SUP_APP_28,6,0
+PRD_0324,Apparel,Basics,Socks & Underwear,Hanes,11.75,7.33,3358,SUP_APP_28,6,0
+PRD_0325,Apparel,Basics,Socks & Underwear,Fruit of the Loom,16.63,9.91,3369,SUP_APP_28,6,0
+PRD_0326,Apparel,Basics,Socks & Underwear,Fruit of the Loom,16.87,10.88,3407,SUP_APP_28,12,0
+PRD_0327,Apparel,Basics,Socks & Underwear,Hanes,11.93,6.63,2713,SUP_APP_28,12,0
+PRD_0328,Apparel,Basics,Socks & Underwear,George,16.09,9.58,2330,SUP_APP_28,6,0
+PRD_0329,Apparel,Basics,Socks & Underwear,Fruit of the Loom,16.19,10.08,2961,SUP_APP_28,12,0
+PRD_0330,Apparel,Basics,Socks & Underwear,Hanes,14.58,9.23,3131,SUP_APP_28,12,0
+PRD_0331,Toys,Board Games,Family Games,Mattel,13.57,9.02,3597,SUP_TOY_29,6,0
+PRD_0332,Toys,Board Games,Family Games,Hasbro,27.07,16.95,2276,SUP_TOY_29,10,0
+PRD_0333,Toys,Board Games,Family Games,Hasbro,18.89,11.76,2480,SUP_TOY_29,10,0
+PRD_0334,Toys,Board Games,Family Games,LEGO,13.25,8.5,3594,SUP_TOY_29,10,0
+PRD_0335,Toys,Board Games,Family Games,LEGO,23.11,15.05,3236,SUP_TOY_29,10,0
+PRD_0336,Toys,Board Games,Family Games,Hasbro,14.72,9.79,3437,SUP_TOY_29,10,0
+PRD_0337,Toys,Board Games,Family Games,Mattel,16.6,10.5,3046,SUP_TOY_29,6,0
+PRD_0338,Toys,Board Games,Family Games,Hasbro,18.97,11.61,3556,SUP_TOY_29,6,0
+PRD_0339,Toys,Board Games,Family Games,Mattel,13.33,9.26,3168,SUP_TOY_29,6,0
+PRD_0340,Toys,Board Games,Family Games,Hasbro,25.62,15.22,2639,SUP_TOY_29,6,0
+PRD_0341,Electronics,Accessories,Cables & Power,Belkin,15.81,8.21,1887,SUP_ELE_30,20,0
+PRD_0342,Electronics,Accessories,Cables & Power,Anker,8.85,5.0,1919,SUP_ELE_30,10,0
+PRD_0343,Electronics,Accessories,Cables & Power,Belkin,10.48,6.01,1986,SUP_ELE_30,10,0
+PRD_0344,Electronics,Accessories,Cables & Power,onn.,16.23,8.06,2550,SUP_ELE_30,20,0
+PRD_0345,Electronics,Accessories,Cables & Power,Belkin,6.96,3.18,2991,SUP_ELE_30,10,0
+PRD_0346,Electronics,Accessories,Cables & Power,Belkin,14.16,7.4,2717,SUP_ELE_30,20,0
+PRD_0347,Electronics,Accessories,Cables & Power,Anker,9.11,5.43,2386,SUP_ELE_30,20,0
+PRD_0348,Electronics,Accessories,Cables & Power,Anker,10.11,5.04,3595,SUP_ELE_30,10,0
+PRD_0349,Electronics,Accessories,Cables & Power,Belkin,17.64,9.41,3409,SUP_ELE_30,20,0
+PRD_0350,Electronics,Accessories,Cables & Power,Belkin,17.96,8.52,3548,SUP_ELE_30,20,0
